@@ -1,7 +1,7 @@
-from verses import Book
+from verses import Book, Chapter
 
-genesis: Book = (
-    (
+genesis = Book(
+    Chapter(  # 1
         "In the beginning God created the heaven and the earth.",
         "And the earth was without form, and void; and darkness [was] upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
         "And God said, Let there be light: and there was light.",
@@ -33,8 +33,8 @@ genesis: Book = (
         "And God said, Behold, I have given you every herb bearing seed, which [is] upon the face of all the earth, and every tree, in the which [is] the fruit of a tree yielding seed; to you it shall be for meat.",
         "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein [there is] life, [I have given] every green herb for meat: and it was so.",
         "And God saw every thing that he had made, and, behold, [it was] very good. And the evening and the morning were the sixth day.",
-    ),
-    (
+    ),  # 31
+    Chapter(  # 2
         "Thus the heavens and the earth were finished, and all the host of them.",
         "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
         "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.",
@@ -60,8 +60,8 @@ genesis: Book = (
         "And Adam said, This [is] now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
         "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
         "And they were both naked, the man and his wife, and were not ashamed.",
-    ),
-    (
+    ),  # 25
+    Chapter(  # 3
         "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?",
         "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:",
         "But of the fruit of the tree which [is] in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.",
@@ -86,5 +86,5 @@ genesis: Book = (
         "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
         "Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.",
         "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
-    ),
+    ),  # 24
 )

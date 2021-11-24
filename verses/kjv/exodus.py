@@ -1,7 +1,7 @@
-from verses import Book
+from verses import Book, Chapter
 
-exodus: Book = (
-    (  # 20
+exodus = Book(
+    Chapter(  # 20
         "And God spake all these words, saying,",
         "I [am] the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.",
         "Thou shalt have no other gods before me.",
@@ -28,5 +28,5 @@ exodus: Book = (
         "An altar of earth thou shalt make unto me, and shalt sacrifice thereon thy burnt offerings, and thy peace offerings, thy sheep, and thine oxen: in all places where I record my name I will come unto thee, and I will bless thee.",
         "And if thou wilt make me an altar of stone, thou shalt not build it of hewn stone: for if thou lift up thy tool upon it, thou hast polluted it.",
         "Neither shalt thou go up by steps unto mine altar, that thy nakedness be not discovered thereon.",
-    ),
+    ),  # 26
 )

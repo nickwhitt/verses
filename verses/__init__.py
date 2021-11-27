@@ -1,4 +1,4 @@
-from typing import Mapping, Sequence
+from typing import Sequence
 
 from pydantic import BaseModel, validator
 
@@ -19,13 +19,13 @@ __books__ = set(
     ]
 )
 
-Verse = str
-
 
 class Chapter(BaseModel):
-    verses: Sequence[Verse]
+    book: str
+    chapter: int
+    verses: Sequence[str]
 
-    def verse(self, start: int, end: int = None) -> Sequence[Verse]:
+    def verse(self, start: int, end: int = None) -> Sequence[str]:
         """Retrieve verse(s) by natural index"""
         if not 0 < start <= (start if end is None else end) <= len(self.verses):
             raise ValueError(
@@ -59,10 +59,3 @@ class Book(BaseModel):
             )
 
         return self.chapters[i]
-
-    @classmethod
-    def from_raw(cls, name: str, data: Mapping[str, tuple[str, ...]]):
-        return cls(
-            name=name,
-            chapters=(tuple([Chapter(verses=v) for v in data.values()])),
-        )

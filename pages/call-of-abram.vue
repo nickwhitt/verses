@@ -1,12 +1,11 @@
 <template>
   <div class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold">God Chooses the Younger Twin</h1>
+    <h1 class="text-4xl font-bold">The Call of Abram</h1>
 
     <h2 class="text-2xl font-bold my-4 border-b">Genesis 12:1-5, 7</h2>
-    <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
-      <article>
-        <h3 class="text-l font-bold mb-4">King James Version</h3>
-        <ol class="list-inside list-decimal">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <Scripture translation="King James Version">
+        <ol>
           <li>
             Now the LORD had said unto Abram, Get thee out of thy country, and
             from thy kindred, and from thy father's house, unto a land that I
@@ -21,7 +20,7 @@
             thee: and in thee shall all families of the earth be blessed.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="4">
             So Abram departed, as the LORD had spoken unto him; and Lot went
             with him: and Abram <em>was</em> seventy and five years old when he
@@ -38,35 +37,35 @@
             plain of Moreh. And the Canaanite <em>was</em> then in the land.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="7">
             And the LORD appeared unto Abram, and said, Unto thy seed will I
             give this land: and there builded he an altar unto the LORD, who
             appeared unto him.
           </li>
         </ol>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">New King James Version</h3>
+      </Scripture>
+
+      <Scripture translation="New King James Version">
         <p><sup>1</sup>Now the LORD had said to Abram:</p>
-        <div class="ml-4 my-2">
-          <p>"Get out of your country,</p>
-          <p>From your family</p>
-          <p>And from your father's house,</p>
-          <p>To a land that I will show you.</p>
-          <p><sup class="-ml-4 mr-2">2</sup>I will make you a great nation;</p>
-          <p>I will bless you</p>
-          <p>And make your name great;</p>
-          <p>And you shall be a blessing.</p>
-          <p>
-            <sup class="-ml-4 mr-2">3</sup>I will bless those who bless you,
-          </p>
-          <p>And I will curse him who curses you;</p>
-          <p style="text-indent: 1rem hanging">
-            And in you all the families of the earth shall be blessed."
-          </p>
-        </div>
-        <p class="indent-4">
+        <ol class="poetry">
+          <li>"Get out of your country,</li>
+          <li>From your family</li>
+          <li>And from your father's house,</li>
+          <li>To a land that I will show you.</li>
+          <li class="verse-number" value="2">
+            I will make you a great nation;
+          </li>
+          <li>I will bless you</li>
+          <li>And make your name great;</li>
+          <li>And you shall be a blessing.</li>
+          <li class="verse-number" value="3">
+            I will bless those who bless you,
+          </li>
+          <li>And I will curse him who curses you;</li>
+          <li>And in you all the families of the earth shall be blessed."</li>
+        </ol>
+        <p>
           <sup>4</sup>So Abram departed as the LORD had spoken to him, and Lot
           went with him. And Abram <em>was</em> seventy-five years old when he
           departed from Haran. <sup>5</sup>Then Abram took Sarai his wife and
@@ -77,33 +76,33 @@
           Shechem, as far as the terebinth tree of Moreh. And the Canaanites
           <em>were</em> then in the land.
         </p>
-        <p class="indent-4">
+        <p>
           <sup>7</sup>Then the LORD appeared to Abram and said, "To your
           descendants I will give this land." And there he built an altar to the
           LORD, who had appeared to him.
         </p>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">New International Version</h3>
-        <p class="text-justify">
+      </Scripture>
+
+      <Scripture translation="New International Version">
+        <p>
           <sup>1</sup>The LORD had said to Abram, "Go from your country, your
           people and your father's household to the land I will show you.
         </p>
-        <div class="ml-4 my-2">
-          <p>
-            <sup class="-ml-4 mr-2">2</sup>"I will make you into a great nation,
-          </p>
-          <p class="ml-8">and I will bless you;</p>
-          <p>I will make your name great,</p>
-          <p class="ml-8">and you will be a blessing.</p>
-          <p>
-            <sup class="-ml-4 mr-2">3</sup>I will bless those who bless you,
-          </p>
-          <p class="ml-8">and whoever curses you I will curse;</p>
-          <p>and all peoples on earth</p>
-          <p class="ml-8">will be blessed through you."</p>
-        </div>
-        <p class="indent-4 text-justify">
+        <ol class="poetry">
+          <li class="verse-number" value="2">
+            "I will make you into a great nation,
+          </li>
+          <li>and I will bless you;</li>
+          <li>I will make your name great,</li>
+          <li>and you will be a blessing.</li>
+          <li class="verse-number" value="3">
+            I will bless those who bless you,
+          </li>
+          <li>and whoever curses you I will curse;</li>
+          <li>and all peoples on earth</li>
+          <li>will be blessed through you."</li>
+        </ol>
+        <p class="indent-4">
           <sup>4</sup>So Abram went, as the LORD had told him; and Lot went with
           him. Abram was seventy-five years old when he set out from Harran.
           <sup>5</sup>He took his wife Sarai, his nephew Lot, all the
@@ -111,17 +110,17 @@
           Harran, and they set out for the land of Canaan, and they arrived
           there.
         </p>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <sup>6</sup>Abram traveled through the land as far as the site of the
           great tree of Moreh at Shechem. At that time the Canaanites were in
           the land. <sup>7</sup>The LORD appeared to Abram and said, "To your
           offspring I will give this land." So he built an altar there to the
           LORD, who had appeared to him.
         </p>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">English Standard Version</h3>
-        <p class="indent-4">
+      </Scripture>
+
+      <Scripture translation="English Standard Version">
+        <p>
           <sup>1</sup>Now the LORD said to Abram, "Go from your country and your
           kindred and your father's house to the land that I will show you.
           <sup>2</sup>And I will make of you a great nation, and I will bless
@@ -130,7 +129,7 @@
           you I will curse, and in you all the families of the earth shall be
           blessed.
         </p>
-        <p class="indent-4">
+        <p>
           <sup>4</sup>So Abram went, as the LORD had told him, and Lot went with
           him. Abram was seventy-five years old when he departed from Haran.
           <sup>5</sup>And Abram took Sarai his wife, and Lot his brother's son,
@@ -142,7 +141,7 @@
           appeared to Abram and said, "To your offspring I will give this land."
           So he built there an altar to the LORD, who had appeared to him.
         </p>
-      </article>
+      </Scripture>
     </div>
 
     <h2 class="text-2xl font-bold my-4 border-b">Genesis 15:1-7</h2>

@@ -47,7 +47,10 @@
       </Scripture>
 
       <Scripture translation="New King James Version">
-        <p><sup>1</sup>Now the LORD had said to Abram:</p>
+        <p>
+          <b class="verse-number">1</b>
+          Now the LORD had said to Abram:
+        </p>
         <ol class="poetry">
           <li>"Get out of your country,</li>
           <li>From your family</li>
@@ -65,28 +68,34 @@
           <li>And I will curse him who curses you;</li>
           <li>And in you all the families of the earth shall be blessed."</li>
         </ol>
-        <p>
-          <sup>4</sup>So Abram departed as the LORD had spoken to him, and Lot
-          went with him. And Abram <em>was</em> seventy-five years old when he
-          departed from Haran. <sup>5</sup>Then Abram took Sarai his wife and
-          Lot his brother's son, and all their possessions that they had
-          gathered, and the people whom they had acquired in Haran, and they
-          departed to go to the land of Canaan. So they came to the land of
-          Canaan. <sup>6</sup>Abram passed through the land to the place of
-          Shechem, as far as the terebinth tree of Moreh. And the Canaanites
-          <em>were</em> then in the land.
+        <p class="indent-4">
+          <b class="verse-number">4</b>
+          So Abram departed as the LORD had spoken to him, and Lot went with
+          him. And Abram <em>was</em> seventy-five years old when he departed
+          from Haran.
+          <b class="verse-number">5</b>
+          Then Abram took Sarai his wife and Lot his brother's son, and all
+          their possessions that they had gathered, and the people whom they had
+          acquired in Haran, and they departed to go to the land of Canaan. So
+          they came to the land of Canaan.
+          <b class="verse-number">6</b>
+          Abram passed through the land to the place of Shechem, as far as the
+          terebinth tree of Moreh. And the Canaanites <em>were</em> then in the
+          land.
         </p>
-        <p>
-          <sup>7</sup>Then the LORD appeared to Abram and said, "To your
-          descendants I will give this land." And there he built an altar to the
-          LORD, who had appeared to him.
+        <p class="indent-4">
+          <b class="verse-number">7</b>
+          Then the LORD appeared to Abram and said, "To your descendants I will
+          give this land." And there he built an altar to the LORD, who had
+          appeared to him.
         </p>
       </Scripture>
 
       <Scripture translation="New International Version">
-        <p>
-          <sup>1</sup>The LORD had said to Abram, "Go from your country, your
-          people and your father's household to the land I will show you.
+        <p class="text-justify">
+          <b class="verse-number">1</b>
+          The LORD had said to Abram, "Go from your country, your people and
+          your father's household to the land I will show you.
         </p>
         <ol class="poetry">
           <li class="verse-number" value="2">
@@ -102,60 +111,69 @@
           <li>and all peoples on earth</li>
           <li>will be blessed through you."</li>
         </ol>
-        <p class="indent-4">
-          <sup>4</sup>So Abram went, as the LORD had told him; and Lot went with
-          him. Abram was seventy-five years old when he set out from Harran.
-          <sup>5</sup>He took his wife Sarai, his nephew Lot, all the
-          possessions they had accumulated and the people they had acquired in
-          Harran, and they set out for the land of Canaan, and they arrived
-          there.
+        <p class="indent-4 text-justify">
+          <b class="verse-number">4</b>
+          So Abram went, as the LORD had told him; and Lot went with him. Abram
+          was seventy-five years old when he set out from Harran.
+          <b class="verse-number">5</b>
+          He took his wife Sarai, his nephew Lot, all the possessions they had
+          accumulated and the people they had acquired in Harran, and they set
+          out for the land of Canaan, and they arrived there.
         </p>
-        <p class="indent-4">
-          <sup>6</sup>Abram traveled through the land as far as the site of the
-          great tree of Moreh at Shechem. At that time the Canaanites were in
-          the land. <sup>7</sup>The LORD appeared to Abram and said, "To your
-          offspring I will give this land." So he built an altar there to the
-          LORD, who had appeared to him.
+        <p class="indent-4 text-justify">
+          <b class="verse-number">6</b>
+          Abram traveled through the land as far as the site of the great tree
+          of Moreh at Shechem. At that time the Canaanites were in the land.
+          <b class="verse-number">7</b>
+          The LORD appeared to Abram and said, "To your offspring I will give
+          this land." So he built an altar there to the LORD, who had appeared
+          to him.
         </p>
       </Scripture>
 
       <Scripture translation="English Standard Version">
-        <p>
-          <sup>1</sup>Now the LORD said to Abram, "Go from your country and your
-          kindred and your father's house to the land that I will show you.
-          <sup>2</sup>And I will make of you a great nation, and I will bless
-          you and make your name great, so that you will be a blessing.
-          <sup>3</sup>I will bless those who bless you, and him who dishonors
-          you I will curse, and in you all the families of the earth shall be
-          blessed.
+        <p class="indent-4">
+          <b class="verse-number">1</b>
+          Now the LORD said to Abram, "Go from your country and your kindred and
+          your father's house to the land that I will show you.
+          <b class="verse-number">2</b>
+          And I will make of you a great nation, and I will bless you and make
+          your name great, so that you will be a blessing.
+          <b class="verse-number">3</b>
+          I will bless those who bless you, and him who dishonors you I will
+          curse, and in you all the families of the earth shall be blessed.
         </p>
-        <p>
-          <sup>4</sup>So Abram went, as the LORD had told him, and Lot went with
-          him. Abram was seventy-five years old when he departed from Haran.
-          <sup>5</sup>And Abram took Sarai his wife, and Lot his brother's son,
-          and all their possessions that they had gathered, and the people that
-          they had acquired in Haran, and they set out to go to the land of
-          Canaan. When they came to the land of Canaan, <sup>6</sup>Abram passed
-          through the land to the place at Shechem, to the oak of Moreh. At that
-          time the Canaanites were in the land. <sup>7</sup>Then the LORD
-          appeared to Abram and said, "To your offspring I will give this land."
-          So he built there an altar to the LORD, who had appeared to him.
+        <p class="indent-4">
+          <b class="verse-number">4</b>
+          So Abram went, as the LORD had told him, and Lot went with him. Abram
+          was seventy-five years old when he departed from Haran.
+          <b class="verse-number">5</b>
+          And Abram took Sarai his wife, and Lot his brother's son, and all
+          their possessions that they had gathered, and the people that they had
+          acquired in Haran, and they set out to go to the land of Canaan. When
+          they came to the land of Canaan,
+          <b class="verse-number">6</b>
+          Abram passed through the land to the place at Shechem, to the oak of
+          Moreh. At that time the Canaanites were in the land.
+          <b class="verse-number">7</b>
+          Then the LORD appeared to Abram and said, "To your offspring I will
+          give this land." So he built there an altar to the LORD, who had
+          appeared to him.
         </p>
       </Scripture>
     </div>
 
     <h2 class="text-2xl font-bold my-4 border-b">Genesis 15:1-7</h2>
-    <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
-      <article>
-        <h3 class="text-l mb-4 font-bold">King James Version</h3>
-        <ol class="list-inside list-decimal">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <Scripture translation="King James Version">
+        <ol>
           <li>
             After these things the word of the LORD came unto Abram in a vision,
             saying, Fear not, Abram: I <em>am</em> thy shield, <em>and</em> thy
             exceeding great reward.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="2">
             And Abram said, Lord GOD, what wilt thou give me, seeing I go
             childless, and the steward of my house <em>is</em> this Eliezer of
@@ -166,7 +184,7 @@
             born in my house is mine heir.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="4">
             And, behold, the word of the LORD <em>came</em> unto him, saying,
             This shall not be thine heir; but he that shall come forth out of
@@ -178,104 +196,124 @@
             him, So shall thy seed be.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="6">
             And he believed in the LORD; and he counted it to him for
             righteousness.
           </li>
         </ol>
-        <ol class="list-inside list-decimal">
+        <ol>
           <li value="7">
             And he said unto him, I <em>am</em> the LORD that brought thee out
             of Ur of the Chaldees, to give thee this land to inherit it.
           </li>
         </ol>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">New King James Version</h3>
+      </Scripture>
+
+      <Scripture translation="New King James Version">
         <p>
-          <sup>1</sup>After these things the word of the LORD came to Abram in a
-          vision, saying, "Do not be afraid, Abram. I <em>am</em> your shield,
-          your exceedingly great reward."
+          <b class="verse-number">1</b>
+          After these things the word of the LORD came to Abram in a vision,
+          saying, "Do not be afraid, Abram. I
+          <em>am</em> your shield, your exceedingly great reward."
         </p>
         <p class="indent-4">
-          <sup>2</sup>But Abram said, "Lord GOD, what will You give me, seeing I
-          go childless, and the heir of my house <em>is</em> Eliezer of
-          Damascus?" <sup>3</sup>Then Abram said, "Look, You have given me no
-          offspring; indeed one born in my house is my heir!"
+          <b class="verse-number">2</b>
+          But Abram said, "Lord GOD, what will You give me, seeing I go
+          childless, and the heir of my house
+          <em>is</em> Eliezer of Damascus?"
+          <b class="verse-number">3</b>
+          Then Abram said, "Look, You have given me no offspring; indeed one
+          born in my house is my heir!"
         </p>
         <p class="indent-4">
-          <sup>4</sup>And behold, the word of the LORD <em>came</em> to him,
-          saying, "This one shall not be your heir, but one who will come from
-          your own body shall be your heir." <sup>5</sup>Then He brought him
-          outside and said, "Look now toward heaven, and count the stars if you
-          are able to number them." And He said to him, "So shall your
-          descendants be."
+          <b class="verse-number">4</b>
+          And behold, the word of the LORD
+          <em>came</em> to him, saying, "This one shall not be your heir, but
+          one who will come from your own body shall be your heir."
+          <b class="verse-number">5</b>
+          Then He brought him outside and said, "Look now toward heaven, and
+          count the stars if you are able to number them." And He said to him,
+          "So shall your descendants be."
         </p>
         <p class="indent-4">
-          <sup>6</sup>And he believed in the LORD, and He accounted it to him
-          for righteousness.
-        </p>
-        <p class="indent-4">
-          <sup>7</sup>Then He said to him, "I <em>am</em> the LORD, who brought
-          you out of Ur of the Chaldeans, to give you this land to inherit it."
-        </p>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">New International Version</h3>
-        <p class="text-justify">
-          <sup>1</sup>After this, the word of the LORD came to Abram in a
-          vision:
-        </p>
-        <div class="ml-4 py-2">
-          <p>"Do not be afraid, Abram.</p>
-          <p class="ml-4">I am your shield,</p>
-          <p class="ml-4">your very great reward."</p>
-        </div>
-        <p class="indent-4 text-justify">
-          <sup>2</sup>But Abram said, "Sovereign LORD, what can you give me
-          since I remain childless and the one who will inherit my estate is
-          Eliezer of Damascus?" <sup>3</sup>And Abram said, "You have given me
-          no children; so a servant in my household will be my heir."
-        </p>
-        <p class="indent-4 text-justify">
-          <sup>4</sup>Then the word of the LORD came to him: "This man will not
-          be your heir, but a son who is your own flesh and blood will be your
-          heir." <sup>5</sup>He took him outside and said, "Look up at the sky
-          and count the stars—-if indeed you can count them." Then he said to
-          him, "So shall your offspring be."
-        </p>
-        <p class="indent-4 text-justify">
-          <sup>6</sup>Abram believed the LORD, and he credited it to him as
+          <b class="verse-number">6</b>
+          And he believed in the LORD, and He accounted it to him for
           righteousness.
         </p>
+        <p class="indent-4">
+          <b class="verse-number">7</b>
+          Then He said to him, "I <em>am</em> the LORD, who brought you out of
+          Ur of the Chaldeans, to give you this land to inherit it."
+        </p>
+      </Scripture>
+
+      <Scripture translation="New Internation Version">
+        <p class="text-justify">
+          <b class="verse-number">1</b>
+          After this, the word of the LORD came to Abram in a vision:
+        </p>
+        <ol class="poetry">
+          <li>"Do not be afraid, Abram.</li>
+          <li>I am your shield,</li>
+          <li>your very great reward."</li>
+        </ol>
         <p class="indent-4 text-justify">
-          <sup>7</sup>He also said to him, "I am the LORD, who brought you out
-          of Ur of the Chaldeans to give you this land to take possession of
-          it."
+          <b class="verse-number">2</b>
+          But Abram said, "Sovereign LORD, what can you give me since I remain
+          childless and the one who will inherit my estate is Eliezer of
+          Damascus?"
+          <b class="verse-number">3</b>
+          And Abram said, "You have given me no children; so a servant in my
+          household will be my heir."
         </p>
-      </article>
-      <article>
-        <h3 class="text-l mb-4 font-bold">English Standard Version</h3>
+        <p class="indent-4 text-justify">
+          <b class="verse-number">4</b>
+          Then the word of the LORD came to him: "This man will not be your
+          heir, but a son who is your own flesh and blood will be your heir."
+          <b class="verse-number">5</b>
+          He took him outside and said, "Look up at the sky and count the
+          stars—-if indeed you can count them." Then he said to him, "So shall
+          your offspring be."
+        </p>
+        <p class="indent-4 text-justify">
+          <b class="verse-number">6</b>
+          Abram believed the LORD, and he credited it to him as righteousness.
+        </p>
+        <p class="indent-4 text-justify">
+          <b class="verse-number">7</b>
+          He also said to him, "I am the LORD, who brought you out of Ur of the
+          Chaldeans to give you this land to take possession of it."
+        </p>
+      </Scripture>
+
+      <Scripture translation="English Standard Version">
         <p class="indent-4">
-          <sup>1</sup>After these things the word of the LORD came to Abram in a
-          vision: "Fear not, Abram, I am your shield; your reward shall be very
-          great." <sup>2</sup>But Abram said, "O Lord GOD, what will you give
-          me, for I continue childless, and the heir of my house is Eliezer of
-          Damascus?" <sup>3</sup>And Abram said, "Behold, you have given me no
-          offspring, and a member of my household will be my heir."
-          <sup>4</sup>And behold, the word of the LORD came to him: "This man
-          shall not be your heir; your very own son shall be your heir."
-          <sup>5</sup>And he brought him outside and said, "Look toward heaven,
-          and number the stars, if you are able to number them." Then he said to
-          him, "So shall your offspring be." <sup>6</sup>And he believed the
-          LORD, and he counted it to him as righteousness.
+          <b class="verse-number">1</b>
+          After these things the word of the LORD came to Abram in a vision:
+          "Fear not, Abram, I am your shield; your reward shall be very great."
+          <b class="verse-number">2</b>
+          But Abram said, "O Lord GOD, what will you give me, for I continue
+          childless, and the heir of my house is Eliezer of Damascus?"
+          <b class="verse-number">3</b>
+          And Abram said, "Behold, you have given me no offspring, and a member
+          of my household will be my heir."
+          <b class="verse-number">4</b>
+          And behold, the word of the LORD came to him: "This man shall not be
+          your heir; your very own son shall be your heir."
+          <b class="verse-number">5</b>
+          And he brought him outside and said, "Look toward heaven, and number
+          the stars, if you are able to number them." Then he said to him, "So
+          shall your offspring be."
+          <b class="verse-number">6</b>
+          And he believed the LORD, and he counted it to him as righteousness.
         </p>
         <p class="indent-4">
-          <sup>7</sup>And he said to him, "I am the LORD who brought you out
-          from Ur of the Chaldeans to give you this land to possess."
+          <b class="verse-number">7</b>
+          And he said to him, "I am the LORD who brought you out from Ur of the
+          Chaldeans to give you this land to possess."
         </p>
-      </article>
+      </Scripture>
     </div>
   </div>
 </template>

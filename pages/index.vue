@@ -14,7 +14,9 @@
             <span class="float-right">Gen 12:1-5, 7; 15: 1-7</span>
           </li>
           <li>
-            God Chooses The Younger Twin
+            <NuxtLink to="god-chooses-younger-twin" class="underline">
+              God Chooses The Younger Twin
+            </NuxtLink>
             <span class="float-right">Gen 25:19-34</span>
           </li>
           <li>

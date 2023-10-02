@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold">The Call of Abram</h1>
+    <h1 class="text-4xl font-bold">God Chooses the Younger Twin</h1>
 
     <h2 class="text-2xl font-bold my-4 border-b">Genesis 12:1-5, 7</h2>
     <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">

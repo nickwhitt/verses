@@ -1,289 +1,125 @@
 <template>
-  <div class="container grid lg:grid-cols-2 px-4 mx-auto gap-4">
-    <div>
-      <h2 class="text-4xl font-bold">God's Exceptional Choice</h2>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          God Calls Abraham's Family
-        </h3>
-        <ul>
-          <li>
-            <NuxtLink to="call-of-abram" class="underline">
-              The Call of Abram
-            </NuxtLink>
-            <span class="float-right">Gen 12:1-5, 7; 15: 1-7</span>
-          </li>
-          <li>
-            <NuxtLink to="god-chooses-younger-twin" class="underline">
-              God Chooses The Younger Twin
-            </NuxtLink>
-            <span class="float-right">Gen 25:19-34</span>
-          </li>
-          <li>
-            Jacob Called Israel
-            <span class="float-right">Gen 32:22-32</span>
-          </li>
-          <li>
-            The Scepter Given To Judah
-            <span class="float-right">Gen 35:22-26; 38:24-26; 49:10-12</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          Out of Slavery to Nationhood
-        </h3>
-        <ul>
-          <li>
-            The Birth of Moses
-            <span class="float-right">Exo 2:1-10</span>
-          </li>
-          <li>
-            Song of Moses
-            <span class="float-right">Deu 32:3-6, 10-14, 18</span>
-          </li>
-          <li>
-            The Call of Gideon
-            <span class="float-right">Jdg 6:1-2, 7-16</span>
-          </li>
-          <li>
-            Who Is King?
-            <span class="float-right">1Sa 8:4-7; 10:17-24</span>
-          </li>
-          <li>
-            David Anointed as King
-            <span class="float-right">1Sa 16:1-13</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">We Are God's Artwork</h3>
-        <ul>
-          <li>
-            God Picked You!
-            <span class="float-right">Eph 1:1-14</span>
-          </li>
-          <li>
-            Christ Is Wisdom
-            <span class="float-right">Eph 1:15-23</span>
-          </li>
-          <li>
-            We Are God's Handiwork
-            <span class="float-right">Eph 2:1-10</span>
-          </li>
-          <li>
-            God Gives Tools for Our Protection
-            <span class="float-right">Eph 6:10-18</span>
-          </li>
-        </ul>
-      </section>
-    </div>
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Verses
+        </h1>
+        <p class="mt-2 text-lg leading-8 text-gray-600">
+          Side-by-side passage translations for deeper scripture study.
+        </p>
+      </div>
 
-    <div>
-      <h2 class="text-4xl font-bold">From Darkness to Light</h2>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">God's Preparation</h3>
-        <ul>
-          <li>
-            Zacharias Hears from God
-            <span class="float-right">Luk 1:8-20</span>
+      <div
+        v-for="quarter in quarters"
+        class="mx-auto mt-4 max-w-2xl pt-4 sm:mt-8 sm:pt-8 lg:mx-0 lg:max-w-none border-t border-gray-200"
+      >
+        <hgroup class="mb-4">
+          <h2 class="text-xl font-bold tracking-light text-gray-800">
+            {{ quarter.title }}
+          </h2>
+          <p>{{ quarter.date }}</p>
+        </hgroup>
+        <ol class="grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-3">
+          <li v-for="unit in quarter.units" class="border rounded-xl shadow">
+            <div class="p-6 gap-x-4 bg-gray-50 border-b">
+              {{ unit.title }}
+            </div>
+            <dl class="divide-y py-2 px-6">
+              <div
+                v-for="lesson in unit.lessons"
+                class="group relative flex justify-between py-3 gap-x-4"
+              >
+                <dt>
+                  <NuxtLink
+                    :to="lesson.slug"
+                    class="text-gray-900 group-hover:text-gray-600"
+                  >
+                    <span class="absolute inset-1" />
+                    {{ lesson.title }}
+                  </NuxtLink>
+                  <p class="text-sm">{{ lesson.passage }}</p>
+                </dt>
+                <dd class="text-sm shrink-0">
+                  {{
+                    lesson.date.toLocaleDateString("en-us", {
+                      dateStyle: "medium",
+                      timeZone: "UTC",
+                    })
+                  }}
+                </dd>
+              </div>
+            </dl>
           </li>
-          <li>
-            Zacharias Speaks
-            <span class="float-right">Luk 1:57-66, 76-79</span>
-          </li>
-          <li>
-            John the Baptist Appears
-            <span class="float-right">Luk 3:2-6, 15-18</span>
-          </li>
-          <li>Mary Rejoices <span class="float-right">Luk 1:46-55</span></li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">God's Promises</h3>
-        <ul>
-          <li>
-            God Promises to Hear and Forgive
-            <span class="float-right">2Ch 7:12-22</span>
-          </li>
-          <li>
-            God Promises to Restore
-            <span class="float-right">Isa 43:1-4, 10-12</span>
-          </li>
-          <li>
-            God Promises to Guide
-            <span class="float-right">Isa 48:3-8, 17</span>
-          </li>
-          <li>
-            God Promises Light
-            <span class="float-right">Isa 58:6-10</span>
-          </li>
-          <li>
-            God Promises His Presence
-            <span class="float-right">Joe 2:21-27</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">God's Call</h3>
-        <ul>
-          <li>
-            Résumé of Those Called
-            <span class="float-right">1Co 1:18-31</span>
-          </li>
-          <li>
-            Reminder of the Call
-            <span class="float-right">2Ti 1:3-14</span>
-          </li>
-          <li>
-            Responsibility of Those Called
-            <span class="float-right">Jas 2:1-12</span>
-          </li>
-          <li>
-            Results of the Call
-            <span class="float-right">1Pe 2:1-10</span>
-          </li>
-        </ul>
-      </section>
-    </div>
-
-    <div>
-      <h2 class="text-4xl font-bold">Jesus Calls Us</h2>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          Called from the Margins of Society
-        </h3>
-        <ul>
-          <li>
-            The Prodigal Son <span class="float-right">Luk 15:11-24</span>
-          </li>
-          <li>
-            The Greatest in the Kingdom
-            <span class="float-right">Mat 18:1-9</span>
-          </li>
-          <li>
-            Jesus Talks with a Samaritan
-            <span class="float-right">Jhn 4:7-15, 28-30, 39-41</span>
-          </li>
-          <li>
-            Jesus Overpowers Legion
-            <span class="float-right">Mar 5:1-13, 18-20</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          Experiencing the Resurrection
-        </h3>
-        <ul>
-          <li>The Empty Tomb <span class="float-right">Luk 24:1-12</span></li>
-          <li>
-            Disciples Believe the Resurrection
-            <span class="float-right">Luk 24:13-27, 30-31</span>
-          </li>
-          <li>
-            Jesus Cooks Breakfast
-            <span class="float-right">Jhn 21:1-14</span>
-          </li>
-          <li>
-            Jesus Reinstates Peter
-            <span class="float-right">Jhn 21:15-19</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          The Birth of the Church
-        </h3>
-        <ul>
-          <li>
-            Jesus Makes a Promise
-            <span class="float-right">Act 1:1-11</span>
-          </li>
-          <li>
-            The Day of Pentecost
-            <span class="float-right">Act 2:1-8, 14-24, 37-40</span>
-          </li>
-          <li>Jumping for Joy <span class="float-right">Act 3:1-11</span></li>
-          <li>
-            An Ethiopian Is Baptized
-            <span class="float-right">Act 8:29-39</span>
-          </li>
-          <li>Saul of Tarsus <span class="float-right">Act 9:9-17</span></li>
-        </ul>
-      </section>
-    </div>
-
-    <div>
-      <h2 class="text-4xl font-bold">The Righteous Reign of God</h2>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          The Prophets Proclaim God's Power
-        </h3>
-        <ul>
-          <li>God Reigns <span class="float-right">Isa 52:7-12</span></li>
-          <li>
-            God's Kingdom of Peace
-            <span class="float-right">Isa 65:17-25</span>
-          </li>
-          <li>
-            God's Servant-King
-            <span class="float-right">Eze 37:21-28</span>
-          </li>
-          <li>
-            Renewed in God's Love
-            <span class="float-right">Zep 3:14-20</span>
-          </li>
-          <li>
-            Peace to the Nations
-            <span class="float-right">Zec 9:9-13, 16-17</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">
-          Jesus Envisions the Kingdom
-        </h3>
-        <ul>
-          <li>
-            The Kingdom Has Come Upon You
-            <span class="float-right">Mat 12:22-32</span>
-          </li>
-          <li>
-            The Sower and the Seed
-            <span class="float-right">Mat 13:1-9, 18-23</span>
-          </li>
-          <li>
-            Weeds Among the Wheat
-            <span class="float-right">Mat 13:24-30, 36-43</span>
-          </li>
-          <li>
-            Finding and Gathering
-            <span class="float-right">Mat 13:44-52</span>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-2xl font-bold my-4 border-b">God's Eternal Reign</h3>
-        <ul>
-          <li>
-            Inheriting the Kingdom
-            <span class="float-right">Gal 5:13-26</span>
-          </li>
-          <li>
-            The Nature of the Kingdom
-            <span class="float-right">Rom 14:10-23</span>
-          </li>
-          <li>
-            Judgement in the Kingdom
-            <span class="float-right">1Co 4:1-6, 17-21</span>
-          </li>
-          <li>
-            God's Kingdom Will Be All in All
-            <span class="float-right">1Co 15:20-28</span>
-          </li>
-        </ul>
-      </section>
+        </ol>
+      </div>
     </div>
   </div>
 </template>
+
+<script setup>
+const quarters = [
+  {
+    title: "God's Exceptional Choice",
+    date: "Fall, 2022",
+    units: [
+      {
+        title: "God Calls Abraham's Family",
+        lessons: [
+          {
+            date: new Date(Date.UTC(2022, 8, 4)),
+            title: "The Call of Abram",
+            slug: "call-of-abram",
+            passage: "Gensis 12:1-5, 7; 15:1-7",
+          },
+          {
+            date: new Date(Date.UTC(2022, 8, 11)),
+            title: "God Chooses The Younger Twin",
+            slug: "god-chooses-younger-twin",
+            passage: "Genesis 25:19-34",
+          },
+        ],
+      },
+      {
+        title: "Out of Slavery to Nationhood",
+        lessons: [
+          {
+            date: new Date(Date.UTC(2022, 9, 2)),
+            title: "The Birth of Moses",
+            slug: "",
+            passage: "Exodus 2:1-10",
+          },
+        ],
+      },
+      {
+        title: "We Are God's Artwork",
+        lessons: [
+          {
+            date: new Date(Date.UTC(2022, 10, 6)),
+            title: "God Picked You!",
+            slug: "",
+            passage: "Eph 1:1-14",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "From Darkness to Light",
+    date: "Winter, 2021-2022",
+    units: [
+      {
+        title: "God's Preparation",
+        lessons: [
+          {
+            date: new Date(Date.UTC(2022, 11, 4)),
+            title: "Zacharias Hears from God",
+            slug: "",
+            passage: "Luke 1:8-20",
+          },
+        ],
+      },
+    ],
+  },
+];
+</script>

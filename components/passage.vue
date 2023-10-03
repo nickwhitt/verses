@@ -10,13 +10,6 @@ const props = defineProps(["translation"]);
 </template>
 
 <style scoped>
-:slotted(b.verse-number) {
-  font-weight: 300;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  vertical-align: text-top;
-  margin-right: -0.2rem;
-}
 :slotted(li) {
   margin-top: 0px;
   margin-bottom: 0px;

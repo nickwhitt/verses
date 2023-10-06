@@ -56,7 +56,7 @@ const units = [
       },
       {
         title: "Jacob Called Israel",
-        slug: "#",
+        slug: "/jacob-called-israel",
         passage: "Genesis 32:22-32",
         date: new Date(Date.UTC(2022, 8, 18)),
       },

@@ -1,97 +1,13 @@
 <template>
-  <div class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold">God Chooses the Younger Twin</h1>
+  <header class="border-b pb-4 mb-4 lg:mb-8">
+    <h1 class="text-3xl font-bold tracking-tight text-gray-900">
+      God Chooses the Younger Twin
+    </h1>
+    <p>Genesis 25:19-34</p>
+  </header>
 
-    <h2 class="text-2xl font-bold my-4 border-b">Genesis 25:19-34</h2>
+  <main>
     <div class="grid sm:grid-cols-3 gap-4">
-      <!-- <Passage translation="King James Version">
-        <ol>
-          <li value="19">
-            And these <em>are</em> the generations of Isaac, Abraham's son:
-            Abraham begat Isaac:
-          </li>
-          <li>
-            And Isaac was forty years old when he took Rebekah to wife, the
-            daughter of Bethuel the Syrian of Padanaram, the sister to Laban the
-            Syrian.
-          </li>
-          <li>
-            And Isaac intreated the LORD for his wife, because she
-            <em>was</em> barren: and the LORD was intreated of him, and Rebekah
-            his wife conceived.
-          </li>
-          <li>
-            And the children struggled together within her; and she said, If
-            <em>it be</em> so, why <em>am</em> I thus? And she went to enquire
-            of the LORD.
-          </li>
-        </ol>
-        <ol>
-          <li value="23">
-            And the LORD said unto her, Two nations <em>are</em> in thy womb,
-            and two manner of people shall be separated from thy bowels; and
-            <em>the one</em> people shall be stronger than
-            <em>the other</em> people; and the elder shall serve the younger.
-          </li>
-        </ol>
-        <ol>
-          <li value="24">
-            And when her days to be delivered were fulfilled, behold,
-            <em>there were</em> twins in her womb.
-          </li>
-          <li>
-            And the first came out red, all over like an hairy garment; and they
-            called his name Esau.
-          </li>
-          <li>
-            And after that came his brother out, and his hand took hold on
-            Esau's heel; and his name was called Jacob: and Isaac
-            <em>was</em> threescore years old when she bare them.
-          </li>
-        </ol>
-        <ol>
-          <li value="27">
-            And the boys grew: and Esau was a cunning hunter, a man of the
-            field; and Jacob <em>was</em> a plain man, dwelling in tents.
-          </li>
-          <li>
-            And Isaac loved Esau, because he did eat of <em>his</em> venison:
-            but Rebekah loved Jacob.
-          </li>
-        </ol>
-        <ol>
-          <li value="29">
-            And Jacob sod pottage: and Esau came from the field, and he
-            <em>was</em> faint:
-          </li>
-          <li>
-            And Esau said to Jacob, Feed me, I pray thee, with that same red
-            <em>pottage</em>; for I <em>am</em> faint: therefore was his name
-            called Edom.
-          </li>
-        </ol>
-        <ol>
-          <li value="31">And Jacob said, Sell me this day thy birthright.</li>
-        </ol>
-        <ol>
-          <li value="32">
-            And Esau said, Behold, I <em>am</em> at the point to die: and what
-            profit shall this birthright do to me?
-          </li>
-        </ol>
-        <ol>
-          <li value="33">
-            And Jacob said, Swear to me this day; and he sware unto him: and he
-            sold his birthright unto Jacob.
-          </li>
-          <li>
-            Then Jacob gave Esau bread and pottage of lentiles; and he did eat
-            and drink, and rose up, and went his way: thus Esau despised
-            <em>his</em> birthright.
-          </li>
-        </ol>
-      </Passage> -->
-
       <Passage translation="New King James Version">
         <p class="indent-4">
           <Verse number="19"
@@ -358,5 +274,5 @@
         <p class="indent-4">So Esau despised his birthright.</p>
       </Passage>
     </div>
-  </div>
+  </main>
 </template>

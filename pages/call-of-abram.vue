@@ -1,51 +1,13 @@
 <template>
-  <div class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold">The Call of Abram</h1>
+  <header class="border-b pb-4 mb-4 lg:mb-8">
+    <h1 class="text-3xl font-bold tracking-tight text-gray-900">
+      The Call of Abram
+    </h1>
+    <p>Genesis 12:1-5, 7</p>
+  </header>
 
-    <h2 class="text-2xl font-bold my-4 border-b">Genesis 12:1-5, 7</h2>
+  <main>
     <div class="grid sm:grid-cols-3 gap-4">
-      <!-- <Passage translation="King James Version">
-        <ol>
-          <li>
-            Now the LORD had said unto Abram, Get thee out of thy country, and
-            from thy kindred, and from thy father's house, unto a land that I
-            will shew thee:
-          </li>
-          <li>
-            And I will make of thee a great nation, and I will bless thee, and
-            make thy name great; and thou shalt be a blessing:
-          </li>
-          <li>
-            And I will bless them that bless thee, and curse him that curseth
-            thee: and in thee shall all families of the earth be blessed.
-          </li>
-        </ol>
-        <ol>
-          <li value="4">
-            So Abram departed, as the LORD had spoken unto him; and Lot went
-            with him: and Abram <em>was</em> seventy and five years old when he
-            departed out of Haran.
-          </li>
-          <li>
-            And Abram took Sarai his wife, and Lot his brother's son, and all
-            their substance that they had gathered, and the souls that they had
-            gotten in Haran; and they went forth to go into the land of Canaan;
-            and into the land of Canaan they came.
-          </li>
-          <li>
-            And Abram passed through the land unto the place of Sichem, unto the
-            plain of Moreh. And the Canaanite <em>was</em> then in the land.
-          </li>
-        </ol>
-        <ol>
-          <li value="7">
-            And the LORD appeared unto Abram, and said, Unto thy seed will I
-            give this land: and there builded he an altar unto the LORD, who
-            appeared unto him.
-          </li>
-        </ol>
-      </Passage> -->
-
       <Passage translation="New King James Version">
         <p>
           <Verse number="1">Now the LORD had said to Abram:</Verse>
@@ -133,7 +95,7 @@
       </Passage>
 
       <Passage translation="New International Version">
-        <p class="text-justify">
+        <p>
           <Verse number="1"
             >The LORD had said to Abram, "Go from your country, your people and
             your father's household to the land I will show you.
@@ -153,7 +115,7 @@
           <li>and all peoples on earth</li>
           <li>will be blessed through you."</li>
         </ol>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="4"
             >So Abram went, as the LORD had told him; and Lot went with him.
             Abram was seventy-five years old when he set out from Harran.
@@ -164,7 +126,7 @@
             set out for the land of Canaan, and they arrived there.
           </Verse>
         </p>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="6"
             >Abram traveled through the land as far as the site of the great
             tree of Moreh at Shechem. At that time the Canaanites were in the
@@ -179,53 +141,10 @@
       </Passage>
     </div>
 
-    <h2 class="text-2xl font-bold my-4 border-b">Genesis 15:1-7</h2>
+    <header class="border-b py-4 my-4 lg:my-8">
+      <p>Genesis 15:1-7</p>
+    </header>
     <div class="grid sm:grid-cols-3 gap-4">
-      <!-- <Passage translation="King James Version">
-        <ol>
-          <li>
-            After these things the word of the LORD came unto Abram in a vision,
-            saying, Fear not, Abram: I <em>am</em> thy shield, <em>and</em> thy
-            exceeding great reward.
-          </li>
-        </ol>
-        <ol>
-          <li value="2">
-            And Abram said, Lord GOD, what wilt thou give me, seeing I go
-            childless, and the steward of my house <em>is</em> this Eliezer of
-            Damascus?
-          </li>
-          <li>
-            And Abram said, Behold, to me thou hast given no seed: and, lo, one
-            born in my house is mine heir.
-          </li>
-        </ol>
-        <ol>
-          <li value="4">
-            And, behold, the word of the LORD <em>came</em> unto him, saying,
-            This shall not be thine heir; but he that shall come forth out of
-            thine own bowels shall be thine heir.
-          </li>
-          <li>
-            And he brought him forth abroad, and said, Look now toward heaven,
-            and tell the stars, if thou be able to number them: and he said unto
-            him, So shall thy seed be.
-          </li>
-        </ol>
-        <ol>
-          <li value="6">
-            And he believed in the LORD; and he counted it to him for
-            righteousness.
-          </li>
-        </ol>
-        <ol>
-          <li value="7">
-            And he said unto him, I <em>am</em> the LORD that brought thee out
-            of Ur of the Chaldees, to give thee this land to inherit it.
-          </li>
-        </ol>
-      </Passage> -->
-
       <Passage translation="New King James Version">
         <p>
           <Verse number="1"
@@ -309,7 +228,7 @@
       </Passage>
 
       <Passage translation="New Internation Version">
-        <p class="text-justify">
+        <p>
           <Verse number="1"
             >After this, the word of the LORD came to Abram in a vision:
           </Verse>
@@ -319,7 +238,7 @@
           <li>I am your shield,</li>
           <li>your very great reward."</li>
         </ol>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="2"
             >But Abram said, "Sovereign LORD, what can you give me since I
             remain childless and the one who will inherit my estate is Eliezer
@@ -330,7 +249,7 @@
             household will be my heir."
           </Verse>
         </p>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="4"
             >Then the word of the LORD came to him: "This man will not be your
             heir, but a son who is your own flesh and blood will be your heir."
@@ -341,13 +260,13 @@
             your offspring be."
           </Verse>
         </p>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="6"
             >Abram believed the LORD, and he credited it to him as
             righteousness.
           </Verse>
         </p>
-        <p class="indent-4 text-justify">
+        <p class="indent-4">
           <Verse number="7"
             >He also said to him, "I am the LORD, who brought you out of Ur of
             the Chaldeans to give you this land to take possession of it."
@@ -355,5 +274,5 @@
         </p>
       </Passage>
     </div>
-  </div>
+  </main>
 </template>

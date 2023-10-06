@@ -4,7 +4,7 @@
     <div class="container mx-auto lg:max-w-screen-lg px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center">
         <div class="flex items-baseline">
-          <p class="shrink-0 text-white"><NuxtLink to="/">Verses</NuxtLink></p>
+          <p class="shrink-0 text-white">Verses</p>
           <ul class="flex items-baseline ml-10 space-x-4">
             <li class="text-gray-300 hover:text-white text-sm font-medium">
               Lessons
@@ -25,13 +25,13 @@
     </header>
 
     <main class="grid gap-12">
-      <p class="">
+      <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
         atque suscipit consequatur eaque sit, quas nemo, praesentium assumenda
         animi enim doloremque! Harum dolorem magni sit, molestiae nulla vel
         soluta quas.
       </p>
-      <article class="grid md:grid-cols-3 gap-4">
+      <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         <header class="my-auto">
           <p class="text-xl">God's Exceptional Choice</p>
           <p class="mt-4">
@@ -41,7 +41,7 @@
             impedit nam, dicta obcaecati ipsa.
           </p>
         </header>
-        <div class="md:col-span-2">
+        <div class="lg:col-span-2">
           <div class="grid gap-y-4 gap-4 md:border-l md:pl-4">
             <LessonUnit v-for="unit in units" :title="unit.title">
               <LessonItem

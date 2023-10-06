@@ -3,7 +3,7 @@ const props = defineProps(["translation"]);
 </script>
 
 <template>
-  <article class="prose sm:prose-sm md:prose-base lg:prose-sm xl:prose-base">
+  <article class="prose sm:prose-sm xl:prose-base">
     <p class="text-center">{{ translation }}</p>
     <slot />
   </article>

@@ -6,7 +6,7 @@
     >
       {{ title }}
     </NuxtLink>
-    <span class="hidden md:inline-block text-sm">
+    <span class="hidden sm:inline-block md:hidden lg:inline-block text-sm">
       {{ passage }}
     </span>
   </li>

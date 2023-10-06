@@ -3,8 +3,8 @@
     <h1 class="text-4xl font-bold">God Chooses the Younger Twin</h1>
 
     <h2 class="text-2xl font-bold my-4 border-b">Genesis 25:19-34</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      <Passage translation="King James Version">
+    <div class="grid sm:grid-cols-3 gap-4">
+      <!-- <Passage translation="King James Version">
         <ol>
           <li value="19">
             And these <em>are</em> the generations of Isaac, Abraham's son:
@@ -90,7 +90,7 @@
             <em>his</em> birthright.
           </li>
         </ol>
-      </Passage>
+      </Passage> -->
 
       <Passage translation="New King James Version">
         <p class="indent-4">
@@ -185,102 +185,6 @@
         </p>
       </Passage>
 
-      <Passage translation="New International Version">
-        <p class="text-justify">
-          <Verse number="19"
-            >This is the account of the family line of Abraham's son Isaac.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          Abraham became the father of Isaac,
-          <Verse number="20"
-            >and Isaac was forty years old when he married Rebekah daughter of
-            Bethuel the Aramean from Paddan Aram and sister of Laban the
-            Aramean.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="21"
-            >Isaac prayed to the LORD on behalf of his wife, because she was
-            childless. The LORD answered his prayer, and his wife Rebekah became
-            pregnant.
-          </Verse>
-          <Verse number="22"
-            >The babies jostled each other within her, and she said, "Why is
-            this happening to me?" So she went to inquire of the LORD.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="23">The LORD said to her,</Verse>
-        </p>
-        <ol class="poetry">
-          <li>"Two nations are in your womb,</li>
-          <li>and two peoples from within you will be separated;</li>
-          <li>one people will be stronger than the other,</li>
-          <li>and the older will serve the younger."</li>
-        </ol>
-        <p class="indent-4 text-justify">
-          <Verse number="24"
-            >When the time came for her to give birth, there were twin boys in
-            her womb.
-          </Verse>
-          <Verse number="25"
-            >The first to come out was red, and his whole body was like a hairy
-            garment; so they named him Esau.
-          </Verse>
-          <Verse number="26"
-            >After this, his brother came out, with his hand grasping Esau's
-            heel; so he was named Jacob. Isaac was sixty years old when Rebekah
-            gave birth to them.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="27"
-            >The boys grew up, and Esau became a skillful hunter, a man of the
-            open country, while Jacob was content to stay at home among the
-            tents.
-          </Verse>
-          <Verse number="28"
-            >Isaac, who had a taste for wild game, loved Esau, but Rebekah loved
-            Jacob.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="29"
-            >Once when Jacob was cooking some stew, Esau came in from the open
-            country, famished.
-          </Verse>
-          <Verse number="30"
-            >He said to Jacob, "Quick, let me have some of that red stew! I'm
-            famished!" (That is why he was also called Edom.)
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="31"
-            >Jacob replied, "First sell me your birthright."
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="32"
-            >"Look, I am about to die," Esau said. "What good is the birthright
-            to me?"
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="33"
-            >But Jacob said, "Swear to me first." So he swore an oath to him,
-            selling his birthright to Jacob.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">
-          <Verse number="34"
-            >Then Jacob gave Esau some bread and some lentil stew. He ate and
-            drank, and then got up and left.
-          </Verse>
-        </p>
-        <p class="indent-4 text-justify">So Esau despised his birthright.</p>
-      </Passage>
-
       <Passage translation="English Standard Version">
         <p class="indent-4">
           <Verse number="19"
@@ -356,6 +260,102 @@
             and rose and went his way. Thus Esau despised his birthright.
           </Verse>
         </p>
+      </Passage>
+
+      <Passage translation="New International Version">
+        <p>
+          <Verse number="19"
+            >This is the account of the family line of Abraham's son Isaac.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          Abraham became the father of Isaac,
+          <Verse number="20"
+            >and Isaac was forty years old when he married Rebekah daughter of
+            Bethuel the Aramean from Paddan Aram and sister of Laban the
+            Aramean.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="21"
+            >Isaac prayed to the LORD on behalf of his wife, because she was
+            childless. The LORD answered his prayer, and his wife Rebekah became
+            pregnant.
+          </Verse>
+          <Verse number="22"
+            >The babies jostled each other within her, and she said, "Why is
+            this happening to me?" So she went to inquire of the LORD.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="23">The LORD said to her,</Verse>
+        </p>
+        <ol class="poetry">
+          <li>"Two nations are in your womb,</li>
+          <li>and two peoples from within you will be separated;</li>
+          <li>one people will be stronger than the other,</li>
+          <li>and the older will serve the younger."</li>
+        </ol>
+        <p class="indent-4">
+          <Verse number="24"
+            >When the time came for her to give birth, there were twin boys in
+            her womb.
+          </Verse>
+          <Verse number="25"
+            >The first to come out was red, and his whole body was like a hairy
+            garment; so they named him Esau.
+          </Verse>
+          <Verse number="26"
+            >After this, his brother came out, with his hand grasping Esau's
+            heel; so he was named Jacob. Isaac was sixty years old when Rebekah
+            gave birth to them.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="27"
+            >The boys grew up, and Esau became a skillful hunter, a man of the
+            open country, while Jacob was content to stay at home among the
+            tents.
+          </Verse>
+          <Verse number="28"
+            >Isaac, who had a taste for wild game, loved Esau, but Rebekah loved
+            Jacob.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="29"
+            >Once when Jacob was cooking some stew, Esau came in from the open
+            country, famished.
+          </Verse>
+          <Verse number="30"
+            >He said to Jacob, "Quick, let me have some of that red stew! I'm
+            famished!" (That is why he was also called Edom.)
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="31"
+            >Jacob replied, "First sell me your birthright."
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="32"
+            >"Look, I am about to die," Esau said. "What good is the birthright
+            to me?"
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="33"
+            >But Jacob said, "Swear to me first." So he swore an oath to him,
+            selling his birthright to Jacob.
+          </Verse>
+        </p>
+        <p class="indent-4">
+          <Verse number="34"
+            >Then Jacob gave Esau some bread and some lentil stew. He ate and
+            drank, and then got up and left.
+          </Verse>
+        </p>
+        <p class="indent-4">So Esau despised his birthright.</p>
       </Passage>
     </div>
   </div>

@@ -22,7 +22,27 @@
         </time>
       </div>
     </header>
+
     <ContentRenderer :value="doc" tag="main" />
+
+    <footer class="border-t mt-12 py-4">
+      <div class="grid sm:grid-cols-3 gap-4">
+        <p class="text-xs">
+          Scripture taken from the New King James Version®. Copyright © 1982 by
+          Thomas Nelson. Used by permission. All rights reserved.
+        </p>
+        <p class="text-xs">
+          Scripture quotations are from the ESV® Bible (The Holy Bible, English
+          Standard Version®), © 2001 by Crossway, a publishing ministry of Good
+          News Publishers. Used by permission. All rights reserved.
+        </p>
+        <p class="text-xs">
+          Scriptures taken from the Holy Bible, New International Version®,
+          NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc.™ Used by
+          permission of Zondervan. All rights reserved worldwide.
+        </p>
+      </div>
+    </footer>
   </ContentDoc>
 </template>
 

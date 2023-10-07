@@ -1,9 +1,9 @@
 ---
 title: Jacob Called Israel
-description: Genesis 32:22-32
+date: 2022-09-18
 ---
 
-::Parallel
+::Parallel{passage="Genesis 32:22-32"}
 
 #left
 :::Passage{translation="New King James Version"}

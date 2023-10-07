@@ -1,9 +1,9 @@
 ---
 title: The Call of Abram
-description: Gensis 12:1-7
+date: 2022-09-04
 ---
 
-::Parallel
+::Parallel{passage="Genesis 12:1-7"}
 
 #left
 :::Passage{translation="New King James Version"}
@@ -61,9 +61,7 @@ will be blessed through you."
 :::
 ::
 
-<h2 class="border-b py-4 my-4 lg:my-8">Genesis 15:1-7</h2>
-
-::Parallel
+::Parallel{passage="Genesis 15:1-7"}
 
 #left
 :::Passage{translation="New King James Version"}
@@ -92,7 +90,7 @@ will be blessed through you."
 **7**And he said to him, "I am the LORD who brought you out from Ur of the Chaldeans to give you this land to possess."
 :::
 
-#left
+#right
 :::Passage{translation="New International Version"}
 **1**After this, the word of the LORD came to Abram in a vision:
 

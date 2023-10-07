@@ -1,5 +1,5 @@
 <template>
-  <header class="border-b pb-4 mb-4 lg:mb-8">
+  <header class="pb-4 mb-4 lg:mb-8">
     <h1 class="text-3xl font-bold tracking-tight text-gray-900">
       International Sunday School Lessons
     </h1>
@@ -62,7 +62,7 @@ const units = [
       },
       {
         title: "The Scepter Given to Judah",
-        slug: "#",
+        slug: "/scepter-given-to-judah",
         passage: "Genesis 32:22-26; 38:24-26; 49:10-12",
         date: new Date(Date.UTC(2022, 8, 25)),
       },

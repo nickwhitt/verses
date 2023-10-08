@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="font-bold">{{ title }}</p>
+    <h3 class="font-bold text-gray-900">{{ title }}</h3>
     <ol class="mx-4">
       <slot />
     </ol>

@@ -1,40 +1,47 @@
 <template>
-  <header class="pb-4 mb-4 lg:mb-8">
-    <h1 class="text-3xl font-bold tracking-tight text-gray-900">
-      International Sunday School Lessons
-    </h1>
+  <header class="bg-gray-100 shadow">
+    <div class="container mx-auto lg:max-w-screen-lg py-10 px-4">
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900">
+        International Sunday School Lessons
+      </h1>
+    </div>
   </header>
 
-  <main class="grid gap-12">
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, atque
-      suscipit consequatur eaque sit, quas nemo, praesentium assumenda animi
-      enim doloremque! Harum dolorem magni sit, molestiae nulla vel soluta quas.
-    </p>
-    <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <header class="my-auto">
-        <p class="text-xl">God's Exceptional Choice</p>
-        <p class="mt-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-          dolorum, ducimus incidunt et praesentium aliquam nisi, nihil
-          perspiciatis quis dolorem nobis tempore est. Nostrum architecto
-          impedit nam, dicta obcaecati ipsa.
-        </p>
-      </header>
-      <div class="lg:col-span-2">
-        <div class="grid gap-y-4 gap-4 md:border-l md:pl-4">
-          <LessonUnit v-for="unit in units" :title="unit.title">
-            <LessonItem
-              v-for="lesson in unit.lessons"
-              :title="lesson.title"
-              :slug="lesson.slug"
-              :passage="lesson.passage"
-            />
-          </LessonUnit>
+  <div class="container mx-auto lg:max-w-screen-lg py-10 px-4">
+    <main class="grid gap-12">
+      <p class="text-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+        atque suscipit consequatur eaque sit, quas nemo, praesentium assumenda
+        animi enim doloremque! Harum dolorem magni sit, molestiae nulla vel
+        soluta quas.
+      </p>
+      <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <header class="my-auto">
+          <h2 class="text-xl font-bold text-gray-900">
+            God's Exceptional Choice
+          </h2>
+          <p class="mt-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+            dolorum, ducimus incidunt et praesentium aliquam nisi, nihil
+            perspiciatis quis dolorem nobis tempore est. Nostrum architecto
+            impedit nam, dicta obcaecati ipsa.
+          </p>
+        </header>
+        <div class="lg:col-span-2">
+          <div class="grid gap-y-4 gap-4 md:border-l md:pl-4">
+            <LessonUnit v-for="unit in units" :title="unit.title">
+              <LessonItem
+                v-for="lesson in unit.lessons"
+                :title="lesson.title"
+                :slug="lesson.slug"
+                :passage="lesson.passage"
+              />
+            </LessonUnit>
+          </div>
         </div>
-      </div>
-    </article>
-  </main>
+      </article>
+    </main>
+  </div>
 </template>
 
 <script setup>

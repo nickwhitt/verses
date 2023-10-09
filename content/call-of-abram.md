@@ -1,4 +1,6 @@
 ---
+quarter: God's Exceptional Choice
+unit: God Calls Abraham's Family
 title: The Call of Abram
 date: 2022-09-04
 ---

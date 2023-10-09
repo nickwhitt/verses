@@ -1,4 +1,6 @@
 ---
+quarter: God's Exceptional Choice
+unit: God Calls Abraham's Family
 title: The Scepter Given to Judah
 date: 2022-09-25
 ---

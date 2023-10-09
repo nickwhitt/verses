@@ -1,4 +1,6 @@
 ---
+quarter: God's Exceptional Choice
+unit: God Calls Abraham's Family
 title: God Chooses the Younger Twin
 date: 2022-09-11
 ---

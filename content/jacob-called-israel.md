@@ -1,4 +1,6 @@
 ---
+quarter: God's Exceptional Choice
+unit: God Calls Abraham's Family
 title: Jacob Called Israel
 date: 2022-09-18
 ---

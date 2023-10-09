@@ -2,6 +2,7 @@
   <ContentDoc v-slot="{ doc }">
     <header class="bg-gray-200 shadow">
       <div class="container mx-auto px-2 lg:max-w-screen-lg py-10">
+        <p>{{ doc.quarter }} / {{ doc.unit }}</p>
         <h1 class="text-3xl font-bold tracking-tight text-gray-900">
           {{ doc.title }}
         </h1>

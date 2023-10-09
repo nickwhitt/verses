@@ -13,10 +13,10 @@ date: 2022-09-11
 
 **23**And the LORD said to her:
 
-Two nations _are_ in your womb,<br>
-Two peoples shall be separated from your body;<br>
-_One_ people shall be stronger than the other,<br>
-And the older shall serve the younger.
+- Two nations _are_ in your womb,
+- Two peoples shall be separated from your body;
+- _One_ people shall be stronger than the other,
+- And the older shall serve the younger.
 
 **24**So when her days were fulfilled _for her_ to give birth, indeed _there were_ twins in her womb.
 **25**And the first came out red. _He was_ like a hairy garment all over; so they called his name Esau.
@@ -45,10 +45,10 @@ So he swore to him, and sold his birthright to Jacob.
 **22**The children struggled together within her, and she said, "If it is thus, why is this happening to me?" So she went to inquire of the LORD.
 **23**And the LORD said to her,
 
-"Two nations are in your womb,<br>
-and two peoples from within you shall be divided;<br>
-the one shall be stronger than the other,<br>
-the older shall serve the younger."
+- "Two nations are in your womb,
+- and two peoples from within you shall be divided;
+- the one shall be stronger than the other,
+- the older shall serve the younger."
 
 **24**When her days to give birth were completed, behold, there were twins in her womb.
 
@@ -78,10 +78,10 @@ Abraham became the father of Isaac,
 
 **23**The LORD said to her,
 
-"Two nations are in your womb,<br>
-and two peoples from within you will be separated;<br>
-one people will be stronger than the other,<br>
-and the older will serve the younger."
+- "Two nations are in your womb,
+- and two peoples from within you will be separated;
+- one people will be stronger than the other,
+- and the older will serve the younger."
 
 **24**When the time came for her to give birth, there were twin boys in her womb.
 **25**The first to come out was red, and his whole body was like a hairy garment; so they named him Esau.

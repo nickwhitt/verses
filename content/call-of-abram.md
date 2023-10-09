@@ -8,17 +8,17 @@ date: 2022-09-04
 <!-- :::Passage{translation="New King James Version"}
 **1**Now the LORD had said to Abram:
 
-Get out of your country,<br>
-From your family<br>
-And from your father's house,<br>
-To a land that I will show you.<br>
-**2**​​I will make you a great nation;​<br>
-I will bless you<br>
-And make your name great;<br>
-And you shall be a blessing.<br>
-**3**​I will bless those who bless you,<br>
-And I will curse him who curses you;<br>
-And in you all the families of the earth shall be blessed.
+- Get out of your country,
+- From your family
+- And from your father's house,
+- To a land that I will show you.
+- **2**​​I will make you a great nation;​
+- I will bless you
+- And make your name great;
+- And you shall be a blessing.
+- **3**​I will bless those who bless you,
+- And I will curse him who curses you;
+- And in you all the families of the earth shall be blessed.
 
 **4**So Abram departed as the LORD had spoken to him, and Lot went with him. And Abram was seventy-five years old when he departed from Haran.
 **5**Then Abram took Sarai his wife and Lot his brother's son, and all their possessions that they had gathered, and the people whom they had acquired in Haran, and they departed to go to the land of Canaan. So they came to the land of Canaan.
@@ -41,14 +41,14 @@ And in you all the families of the earth shall be blessed.
 :::Passage{translation="New International Version"}
 **1**The LORD had said to Abram, "Go from your country, your people and your father's household to the land I will show you.
 
-**2**"I will make you into a great nation,<br>
-and I will bless you;<br>
-I will make your name great,<br>
-and you will be a blessing.<br>
-**3**I will bless those who bless you,<br>
-and whoever curses you I will curse;<br>
-and all peoples on earth<br>
-will be blessed through you."
+- **2**"I will make you into a great nation,
+- and I will bless you;
+- I will make your name great,
+- and you will be a blessing.
+- **3**I will bless those who bless you,
+- and whoever curses you I will curse;
+- and all peoples on earth
+- will be blessed through you."
 
 **4**So Abram went, as the LORD had told him; and Lot went with him. Abram was seventy-five years old when he set out from Harran.
 **5**He took his wife Sarai, his nephew Lot, all the possessions they had accumulated and the people they had acquired in Harran, and they set out for the land of Canaan, and they arrived there.
@@ -100,9 +100,9 @@ will be blessed through you."
 :::Passage{translation="New International Version"}
 **1**After this, the word of the LORD came to Abram in a vision:
 
-"Do not be afraid, Abram.<br>
-I am your shield,<br>
-your very great reward."
+- "Do not be afraid, Abram.
+- I am your shield,
+- your very great reward."
 
 **2**But Abram said, "Sovereign LORD, what can you give me since I remain childless and the one who will inherit my estate is Eliezer of Damascus?"
 **3**And Abram said, "You have given me no children; so a servant in my household will be my heir."

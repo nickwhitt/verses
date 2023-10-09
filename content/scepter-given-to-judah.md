@@ -87,54 +87,62 @@ Judah said, "Bring her out and have her burned to death!"
 ::Parallel{passage="Genesis 49:10-12"}
 
 <!-- :::Passage{translation="New King James Version"}
-**10**​The scepter shall not depart from Judah,<br>
-Nor a lawgiver from between his feet,<br>
-Until Shiloh comes;<br>
-And to Him _shall be_ the obedience of the people.<br>
-**11**Binding his donkey to the vine,<br>
-And his donkey's colt to the choice vine,<br>
-He washed his garments in wine,<br>
-And his clothes in the blood of grapes.<br>
-**12**​His eyes _are_ darker than wine,<br>
-And his teeth whiter than milk.
+
+- **10**​The scepter shall not depart from Judah,
+- Nor a lawgiver from between his feet,
+- Until Shiloh comes;
+- And to Him _shall be_ the obedience of the people.
+- **11**Binding his donkey to the vine,
+- And his donkey's colt to the choice vine,
+- He washed his garments in wine,
+- And his clothes in the blood of grapes.
+- **12**​His eyes _are_ darker than wine,
+- And his teeth whiter than milk.
+
 ::: -->
 
 :::Passage{translation="English Standard Version"}
-**10**The scepter shall not depart from Judah,<br>
-nor the ruler's staff from between his feet,<br>
-until tribute comes to him;<br>
-and to him shall be the obedience of the peoples.<br>
-**11**Binding his foal to the vine<br>
-and his donkey's colt to the choice vine,<br>
-he has washed his garments in wine<br>
-and his vesture in the blood of grapes.<br>
-**12**His eyes are darker than wine,<br>
-and his teeth whiter than milk.
+
+- **10**The scepter shall not depart from Judah,
+- nor the ruler's staff from between his feet,
+- until tribute comes to him;
+- and to him shall be the obedience of the peoples.
+- **11**Binding his foal to the vine
+- and his donkey's colt to the choice vine,
+- he has washed his garments in wine
+- and his vesture in the blood of grapes.
+- **12**His eyes are darker than wine,
+- and his teeth whiter than milk.
+
 :::
 
 :::Passage{translation="New International Version"}
-**10**The scepter will not depart from Judah,<br>
-nor the ruler's staff from between his feet,<br>
-until he to whom it belongs shall come<br>
-and the obedience of the nations shall be his.<br>
-**11**He will tether his donkey to a vine,<br>
-his colt to the choicest branch;<br>
-he will wash his garments in wine,<br>
-his robes in the blood of grapes.<br>
-**12**His eyes will be darker than wine,<br>
-his teeth whiter than milk.
+
+- **10**The scepter will not depart from Judah,
+- nor the ruler's staff from between his feet,
+- until he to whom it belongs shall come
+- and the obedience of the nations shall be his.
+- **11**He will tether his donkey to a vine,
+- his colt to the choicest branch;
+- he will wash his garments in wine,
+- his robes in the blood of grapes.
+- **12**His eyes will be darker than wine,
+- his teeth whiter than milk.
+
 :::
 
 :::Passage{translation="New Living Translation"}
-**10**The scepter will not depart from Judah,<br>
-nor the ruler's staff from his descendants,<br>
-until the coming of the one to whom it belongs,<br>
-the one whom all nations will honor.<br>
-**11**He ties his foal to a grapevine,<br>
-the colt of his donkey to a choice vine.<br>
-He washes his clothes in wine,<br>
-his robes in the blood of grapes.<br>
-**12**His eyes are darker than wine,<br>
-and his teeth are whiter than milk.
+
+- **10**The scepter will not depart from Judah,
+- nor the ruler's staff from his descendants,
+- until the coming of the one to whom it belongs,
+- the one whom all nations will honor.
+- **11**He ties his foal to a grapevine,
+- the colt of his donkey to a choice vine.
+- He washes his clothes in wine,
+- his robes in the blood of grapes.
+- **12**His eyes are darker than wine,
+- and his teeth are whiter than milk.
+
 :::
 ::

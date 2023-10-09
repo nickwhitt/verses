@@ -22,7 +22,7 @@ date: 2022-09-04
 
 **4**So Abram departed as the LORD had spoken to him, and Lot went with him. And Abram was seventy-five years old when he departed from Haran.
 **5**Then Abram took Sarai his wife and Lot his brother's son, and all their possessions that they had gathered, and the people whom they had acquired in Haran, and they departed to go to the land of Canaan. So they came to the land of Canaan.
-**6**Abram passed through the land to the place of Shechem, as far as the terebinth tree of Moreh.[fn] And the Canaanites were then in the land.
+**6**Abram passed through the land to the place of Shechem, as far as the terebinth tree of Moreh. And the Canaanites were then in the land.
 
 **7**Then the LORD appeared to Abram and said, "To your descendants I will give this land." And there he built an altar to the LORD, who had appeared to him
 ::: -->
@@ -34,7 +34,7 @@ date: 2022-09-04
 
 **4**So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he departed from Haran.
 **5**And Abram took Sarai his wife, and Lot his brother's son, and all their possessions that they had gathered, and the people that they had acquired in Haran, and they set out to go to the land of Canaan. When they came to the land of Canaan
-**6**Abram passed through the land to the place at Shechem, to the oak[fn] of Moreh. At that time the Canaanites were in the land.
+**6**Abram passed through the land to the place at Shechem, to the oak of Moreh. At that time the Canaanites were in the land.
 **7**Then the LORD appeared to Abram and said, "To your offspring I will give this land." So he built there an altar to the LORD, who had appeared to him.
 :::
 

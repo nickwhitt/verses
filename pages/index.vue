@@ -1,34 +1,28 @@
 <template>
-  <header class="bg-gray-100 shadow">
-    <div class="container mx-auto py-10 px-4">
+  <header class="bg-gray-200 shadow">
+    <div class="container mx-auto px-2 lg:max-w-screen-lg py-10">
       <h1 class="text-3xl font-bold tracking-tight text-gray-900">
         International Sunday School Lessons
       </h1>
     </div>
   </header>
 
-  <div class="container mx-auto lg:max-w-screen-lg py-10 px-4">
+  <div class="container mx-auto px-2 lg:max-w-screen-lg py-10">
     <main class="grid gap-12">
-      <p class="text-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
-        atque suscipit consequatur eaque sit, quas nemo, praesentium assumenda
-        animi enim doloremque! Harum dolorem magni sit, molestiae nulla vel
-        soluta quas.
-      </p>
-      <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <p class="text-lg"></p>
+
+      <article
+        class="grid md:grid-cols-2 lg:grid-cols-3 bg-white rounded shadow p-2"
+      >
         <header class="my-auto">
-          <h2 class="text-xl font-bold text-gray-900">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">
             God's Exceptional Choice
           </h2>
-          <p class="mt-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-            dolorum, ducimus incidunt et praesentium aliquam nisi, nihil
-            perspiciatis quis dolorem nobis tempore est. Nostrum architecto
-            impedit nam, dicta obcaecati ipsa.
-          </p>
+          <p class=""></p>
         </header>
+
         <div class="lg:col-span-2">
-          <div class="grid gap-y-4 gap-4 md:border-l md:pl-4">
+          <div class="grid gap-y-4 md:border-l md:pl-2">
             <LessonUnit v-for="unit in units" :title="unit.title">
               <LessonItem
                 v-for="lesson in unit.lessons"
@@ -52,7 +46,7 @@ const units = [
       {
         title: "The Call of Abram",
         slug: "/call-of-abram",
-        passage: "Gensis 12:1-5, 7; 15:1-7",
+        passage: "Genesis 12:1-5, 7; 15:1-7",
         date: new Date(Date.UTC(2022, 8, 4)),
       },
       {

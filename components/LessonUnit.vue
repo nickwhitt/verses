@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="font-bold text-gray-900">{{ title }}</h3>
-    <ol class="mx-4">
+    <ol class="ml-4">
       <slot />
     </ol>
   </div>

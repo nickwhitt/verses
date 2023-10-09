@@ -7,16 +7,16 @@
     </div>
   </header>
 
-  <div class="container mx-auto px-2 lg:max-w-screen-lg py-10">
+  <div class="container mx-auto px-2 lg:max-w-screen-lg py-4 lg:py-10">
     <main class="grid gap-12">
-      <article v-for="quarter in quarters">
-        <header>
-          <h2 class="text-xl font-bold text-gray-900 pb-2 mb-4 border-b">
+      <article v-for="quarter in quarters" class="rounded shadow">
+        <header class="border-b bg-gray-200">
+          <h2 class="text-xl font-bold text-gray-900 p-2">
             {{ quarter.title }}
           </h2>
         </header>
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 m-2">
           <article
             v-for="lesson in quarter.lessons"
             class="relative bg-white hover:bg-gray-100 rounded shadow p-2"

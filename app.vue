@@ -1,7 +1,7 @@
 <template>
   <Body class="text-gray-500" />
   <nav class="bg-gray-800">
-    <div class="container mx-auto lg:max-w-screen-lg px-4">
+    <div class="container mx-auto px-4">
       <div class="flex h-16 items-center">
         <div class="flex items-baseline">
           <p class="shrink-0 text-white"><NuxtLink to="/">Vs</NuxtLink></p>

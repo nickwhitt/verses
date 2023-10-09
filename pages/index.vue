@@ -1,6 +1,6 @@
 <template>
   <header class="bg-gray-100 shadow">
-    <div class="container mx-auto lg:max-w-screen-lg py-10 px-4">
+    <div class="container mx-auto py-10 px-4">
       <h1 class="text-3xl font-bold tracking-tight text-gray-900">
         International Sunday School Lessons
       </h1>

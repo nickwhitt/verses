@@ -5,8 +5,7 @@ date: 2022-09-25
 
 ::Parallel{passage="Genesis 32:22-26"}
 
-#left
-:::Passage{translation="New King James Version"}
+<!-- :::Passage{translation="New King James Version"}
 **22**And he arose that night and took his two wives, his two female servants, and his eleven sons, and crossed over the ford of Jabbok.
 **23**He took them, sent them over the brook, and sent over what he had.
 **24**Then Jacob was left alone; and a Man wrestled with him until the breaking of day.
@@ -14,9 +13,8 @@ date: 2022-09-25
 **26**And He said, "Let Me go, for the day breaks."
 
 But he said, "I will not let You go unless You bless me!"
-:::
+::: -->
 
-#middle
 :::Passage{translation="English Standard Version"}
 **22**The same night he arose and took his two wives, his two female servants, and his eleven children, and crossed the ford of the Jabbok.
 **23**He took them and sent them across the stream, and everything else that he had.
@@ -25,7 +23,6 @@ But he said, "I will not let You go unless You bless me!"
 **26**Then he said, "Let me go, for the day has broken." But Jacob said, "I will not let you go unless you bless me."
 :::
 
-#right
 :::Passage{translation="New International Version"}
 **22**That night Jacob got up and took his two wives, his two female servants and his eleven sons and crossed the ford of the Jabbok.
 **23**After he had sent them across the stream, he sent over all his possessions.
@@ -35,12 +32,22 @@ But he said, "I will not let You go unless You bless me!"
 
 But Jacob replied, "I will not let you go unless you bless me."
 :::
+
+:::Passage{translation="New Living Translation"}
+**22**During the night Jacob got up and took his two wives, his two servant wives, and his eleven sons and crossed the Jabbok River with them.
+**23**After taking them to the other side, he sent over all his possessions.
+
+**24**This left Jacob all alone in the camp, and a man came and wrestled with him until the dawn began to break.
+**25**When the man saw that he would not win the match, he touched Jacob's hip and wrenched it out of its socket.
+**26**Then the man said, "Let me go, for the dawn is breaking!"
+
+But Jacob said, "I will not let you go unless you bless me."
+:::
 ::
 
 ::Parallel{passage="Genesis 38:24-26"}
 
-#left
-:::Passage{translation="New King James Version"}
+<!-- :::Passage{translation="New King James Version"}
 **24**And it came to pass, about three months after, that Judah was told, saying, "Tamar your daughter-in-law has played the harlot; furthermore she is with child by harlotry."
 
 So Judah said, "Bring her out and let her be burned!"
@@ -48,16 +55,14 @@ So Judah said, "Bring her out and let her be burned!"
 **25**When she was brought out, she sent to her father-in-law, saying, "By the man to whom these belong, I am with child." And she said, "Please determine whose these are—the signet and cord, and staff."
 
 **26**So Judah acknowledged them and said, "She has been more righteous than I, because I did not give her to Shelah my son." And he never knew her again.
-:::
+::: -->
 
-#middle
 :::Passage{translation="English Standard Version"}
 **24**About three months later Judah was told, "Tamar your daughter-in-law has been immoral. Moreover, she is pregnant by immorality." And Judah said, "Bring her out, and let her be burned."
 **25**As she was being brought out, she sent word to her father-in-law, "By the man to whom these belong, I am pregnant." And she said, "Please identify whose these are, the signet and the cord and the staff."
 **26**Then Judah identified them and said, "She is more righteous than I, since I did not give her to my son Shelah." And he did not know her again.
 :::
 
-#right
 :::Passage{translation="New International Version"}
 **24**About three months later Judah was told, "Your daughter-in-law Tamar is guilty of prostitution, and as a result she is now pregnant."
 
@@ -67,12 +72,21 @@ Judah said, "Bring her out and have her burned to death!"
 
 **26**Judah recognized them and said, "She is more righteous than I, since I wouldn't give her to my son Shelah." And he did not sleep with her again.
 :::
+
+:::Passage{translation="New Living Translation"}
+**24**About three months later, Judah was told, "Tamar, your daughter-in-law, has acted like a prostitute. And now, because of this, she's pregnant."
+
+"Bring her out, and let her be burned!" Judah demanded.
+
+**25**But as they were taking her out to kill her, she sent this message to her father-in-law: "The man who owns these things made me pregnant. Look closely. Whose seal and cord and walking stick are these?"
+
+**26**Judah recognized them immediately and said, "She is more righteous than I am, because I didn't arrange for her to marry my son Shelah." And Judah never slept with Tamar again.
+:::
 ::
 
 ::Parallel{passage="Genesis 49:10-12"}
 
-#left
-:::Passage{translation="New King James Version"}
+<!-- :::Passage{translation="New King James Version"}
 **10**​The scepter shall not depart from Judah,<br>
 Nor a lawgiver from between his feet,<br>
 Until Shiloh comes;<br>
@@ -83,9 +97,8 @@ He washed his garments in wine,<br>
 And his clothes in the blood of grapes.<br>
 **12**​His eyes _are_ darker than wine,<br>
 And his teeth whiter than milk.
-:::
+::: -->
 
-#middle
 :::Passage{translation="English Standard Version"}
 **10**The scepter shall not depart from Judah,<br>
 nor the ruler's staff from between his feet,<br>
@@ -99,7 +112,6 @@ and his vesture in the blood of grapes.<br>
 and his teeth whiter than milk.
 :::
 
-#right
 :::Passage{translation="New International Version"}
 **10**The scepter will not depart from Judah,<br>
 nor the ruler's staff from between his feet,<br>
@@ -111,5 +123,18 @@ he will wash his garments in wine,<br>
 his robes in the blood of grapes.<br>
 **12**His eyes will be darker than wine,<br>
 his teeth whiter than milk.
+:::
+
+:::Passage{translation="New Living Translation"}
+**10**The scepter will not depart from Judah,<br>
+nor the ruler's staff from his descendants,<br>
+until the coming of the one to whom it belongs,<br>
+the one whom all nations will honor.<br>
+**11**He ties his foal to a grapevine,<br>
+the colt of his donkey to a choice vine.<br>
+He washes his clothes in wine,<br>
+his robes in the blood of grapes.<br>
+**12**His eyes are darker than wine,<br>
+and his teeth are whiter than milk.
 :::
 ::

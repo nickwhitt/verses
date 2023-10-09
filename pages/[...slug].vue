@@ -2,41 +2,24 @@
   <Body class="bg-gray-50" />
   <ContentDoc v-slot="{ doc }">
     <header class="bg-gray-100 shadow">
-      <div class="container mx-auto lg:max-w-screen-lg py-10 px-4">
+      <div class="container mx-auto py-10 px-4">
         <h1 class="text-3xl font-bold tracking-tight text-gray-900">
           {{ doc.title }}
         </h1>
-        <!-- <div class="mt-2 flex items-center text-sm text-gray-500">
-          <svg
-            class="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <time :datetime="doc.date">
-            {{ dayjs(doc.date).format("MMM D, YYYY") }}
-          </time>
-        </div> -->
       </div>
     </header>
 
-    <div class="lg:container mx-auto py-10 px-4">
+    <div class="md:container mx-auto py-10 px-4">
       <ContentRenderer :value="doc" tag="main" class="grid gap-6" />
     </div>
 
     <footer class="border-t py-4 bg-gray-100">
-      <div class="lg:container mx-auto px-4">
-        <div class="grid sm:grid-cols-3 gap-4">
-          <p class="text-xs">
+      <div class="md:container mx-auto px-4">
+        <div class="grid sm:grid-cols-3 gap-3">
+          <!-- <p class="text-xs">
             Scripture taken from the New King James Version®. Copyright © 1982
             by Thomas Nelson. Used by permission. All rights reserved.
-          </p>
+          </p> -->
           <p class="text-xs">
             Scripture quotations are from the ESV® Bible (The Holy Bible,
             English Standard Version®), © 2001 by Crossway, a publishing
@@ -48,12 +31,14 @@
             NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc.™ Used by
             permission of Zondervan. All rights reserved worldwide.
           </p>
+          <p class="text-xs">
+            Scripture quotations marked (NLT) are taken from the Holy Bible, New
+            Living Translation, copyright ©1996, 2004, 2015 by Tyndale House
+            Foundation. Used by permission of Tyndale House Publishers, Carol
+            Stream, Illinois 60188. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
   </ContentDoc>
 </template>
-
-<script setup>
-import dayjs from "dayjs";
-</script>

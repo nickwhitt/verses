@@ -7,31 +7,6 @@ date: 2022-09-18
 
 ::Parallel{passage="Genesis 32:22-32"}
 
-<!-- :::Passage{translation="New King James Version"}
-
-**22**And he arose that night and took his two wives, his two female servants, and his eleven sons, and crossed over the ford of Jabbok.
-**23**He took them, sent them over the brook, and sent over what he had.
-**24**Then Jacob was left alone; and a Man wrestled with him until the breaking of day.
-**25**Now when He saw that He did not prevail against him, He touched the socket of his hip; and the socket of Jacob's hip was out of joint as He wrestled with him.
-**26**And He said, "Let Me go, for the day breaks."
-
-But he said, "I will not let You go unless You bless me!"
-
-**27**So He said to him, "What _is_ your name?"
-
-He said, "Jacob."
-
-**28**And He said, "Your name shall no longer be called Jacob, but Israel; for you have struggled with God and with men, and have prevailed."
-
-**29**Then Jacob asked, saying, "Tell _me_ Your name, I pray."
-
-And He said, "Why _is_ it _that_ you ask about My name?" And He blessed him there.
-
-**30**So Jacob called the name of the place Peniel: "For I have seen God face to face, and my life is preserved."
-**31**Just as he crossed over Penuel the sun rose on him, and he limped on his hip.
-**32**Therefore to this day the children of Israel do not eat the muscle that shrank, which _is_ on the hip socket, because He touched the socket of Jacob's hip in the muscle that shrank.
-::: -->
-
 :::Passage{translation="English Standard Version"}
 **22**The same night he arose and took his two wives, his two female servants, and his eleven children, and crossed the ford of the Jabbok.
 **23**He took them and sent them across the stream, and everything else that he had.
@@ -46,29 +21,29 @@ And He said, "Why _is_ it _that_ you ask about My name?" And He blessed him ther
 **32**Therefore to this day the people of Israel do not eat the sinew of the thigh that is on the hip socket, because he touched the socket of Jacob's hip on the sinew of the thigh.
 :::
 
-:::Passage{translation="New International Version"}
-**22**That night Jacob got up and took his two wives, his two female servants and his eleven sons and crossed the ford of the Jabbok.
-**23**After he had sent them across the stream, he sent over all his possessions.
-**24**So Jacob was left alone, and a man wrestled with him till daybreak.
-**25**When the man saw that he could not overpower him, he touched the socket of Jacob's hip so that his hip was wrenched as he wrestled with the man.
-**26**Then the man said, "Let me go, for it is daybreak."
+:::Passage{translation="Christian Standard Bible"}
+**22**During the night Jacob got up and took his two wives, his two slave women, and his eleven sons, and crossed the ford of Jabbok.
+**23**He took them and sent them across the stream, along with all his possessions.
 
-But Jacob replied, "I will not let you go unless you bless me."
+**24**Jacob was left alone, and a man wrestled with him until daybreak.
+**25**When the man saw that he could not defeat him, he struck Jacob's hip socket as they wrestled and dislocated his hip.
+**26**Then he said to Jacob, "Let me go, for it is daybreak."
 
-**27**The man asked him, "What is your name?"
+But Jacob said, "I will not let you go unless you bless me."
 
-"Jacob," he answered.
+**27**"What is your name?" the man asked.
 
-**28**Then the man said, "Your name will no longer be Jacob, but Israel, because you have struggled with God and with humans and have overcome."
+"Jacob," he replied.
 
-**29**Jacob said, "Please tell me your name."
+**28**"Your name will no longer be Jacob," he said. "It will be Israel because you have struggled with God and with men and have prevailed."
 
-But he replied, "Why do you ask my name?" Then he blessed him there.
+**29**Then Jacob asked him, "Please tell me your name."
 
-**30**So Jacob called the place Peniel, saying, "It is because I saw God face to face, and yet my life was spared."
+But he answered, "Why do you ask my name?" And he blessed him there.
 
-**31**The sun rose above him as he passed Peniel, and he was limping because of his hip.
-**32**Therefore to this day the Israelites do not eat the tendon attached to the socket of the hip, because the socket of Jacob's hip was touched near the tendon.
+**30**Jacob then named the place Peniel, "For I have seen God face to face," he said, "yet my life has been spared."
+**31**The sun shone on him as he passed by Penuel ​-- ​limping because of his hip.
+**32**That is why, still today, the Israelites don't eat the thigh muscle that is at the hip socket: because he struck Jacob's hip socket at the thigh muscle.
 :::
 
 :::Passage{translation="New Living Translation"}

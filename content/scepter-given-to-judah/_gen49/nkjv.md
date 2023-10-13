@@ -1,0 +1,10 @@
+- **10**​The scepter shall not depart from Judah,
+- Nor a lawgiver from between his feet,
+- Until Shiloh comes;
+- And to Him _shall be_ the obedience of the people.
+- **11**Binding his donkey to the vine,
+- And his donkey's colt to the choice vine,
+- He washed his garments in wine,
+- And his clothes in the blood of grapes.
+- **12**​His eyes _are_ darker than wine,
+- And his teeth whiter than milk.

@@ -1,0 +1,10 @@
+- **10**The scepter will not depart from Judah,
+- nor the ruler's staff from between his feet,
+- until he to whom it belongs shall come
+- and the obedience of the nations shall be his.
+- **11**He will tether his donkey to a vine,
+- his colt to the choicest branch;
+- he will wash his garments in wine,
+- his robes in the blood of grapes.
+- **12**His eyes will be darker than wine,
+- his teeth whiter than milk.

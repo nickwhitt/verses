@@ -27,11 +27,17 @@
             rights reserved.
           </p>
           <p class="text-xs px-2">
+            Scripture quotations marked CSB have been taken from the Christian
+            Standard Bible®, Copyright © 2017 by Holman Bible Publishers. Used
+            by permission. Christian Standard Bible® and CSB® are federally
+            registered trademarks of Holman Bible Publishers.
+          </p>
+          <!-- <p class="text-xs px-2">
             Scripture quotations marked (NIV) are taken from the Holy Bible, New
             International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by
             Biblica, Inc.™ Used by permission of Zondervan. All rights reserved
             worldwide.
-          </p>
+          </p> -->
           <p class="text-xs px-2">
             Scripture quotations marked (NLT) are taken from the Holy Bible, New
             Living Translation, copyright ©1996, 2004, 2015 by Tyndale House

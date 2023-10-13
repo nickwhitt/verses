@@ -7,39 +7,6 @@ date: 2022-09-11
 
 ::Parallel{passage="Genesis 25:19-34"}
 
-<!-- :::Passage{translation="New King James Version"}
-**19**This _is_ the genealogy of Isaac, Abraham's son. Abraham begot Isaac.
-**20**Isaac was forty years old when he took Rebekah as wife, the daughter of Bethuel the Syrian of Padan Aram, the sister of Laban the Syrian.
-**21**Now Isaac pleaded with the LORD for his wife, because she _was_ barren; and the LORD granted his plea, and Rebekah his wife conceived.
-**22**But the children struggled together within her; and she said, "If _all is_ well, why _am I like_ this?" So she went to inquire of the LORD.
-
-**23**And the LORD said to her:
-
-- Two nations _are_ in your womb,
-- Two peoples shall be separated from your body;
-- _One_ people shall be stronger than the other,
-- And the older shall serve the younger.
-
-**24**So when her days were fulfilled _for her_ to give birth, indeed _there were_ twins in her womb.
-**25**And the first came out red. _He was_ like a hairy garment all over; so they called his name Esau.
-**26**Afterward his brother came out, and his hand took hold of Esau's heel; so his name was called Jacob. Isaac _was_ sixty years old when she bore them.
-
-**27**So the boys grew. And Esau was a skillful hunter, a man of the field; but Jacob was a mild man, dwelling in tents.
-**28**And Isaac loved Esau because he ate _of his_ game, but Rebekah loved Jacob.
-
-**29**Now Jacob cooked a stew; and Esau came in from the field, and he _was_ weary.
-**30**And Esau said to Jacob, "Please feed me with that same red _stew_, for I _am_ weary." Therefore his name was called Edom.
-
-**31**But Jacob said, "Sell me your birthright as of this day."
-
-**32**And Esau said, "Look, I _am_ about to die; so what _is_ this birthright to me?"
-
-**33**Then Jacob said, "Swear to me as of this day."
-
-So he swore to him, and sold his birthright to Jacob.
-**34**And Jacob gave Esau bread and stew of lentils; then he ate and drank, arose, and went his way. Thus Esau despised _his_ birthright.
-::: -->
-
 :::Passage{translation="English Standard Version"}
 **19**These are the generations of Isaac, Abraham's son: Abraham fathered Isaac,
 **20**and Isaac was forty years old when he took Rebekah, the daughter of Bethuel the Aramean of Paddan-aram, the sister of Laban the Aramean, to be his wife.
@@ -69,41 +36,34 @@ So he swore to him, and sold his birthright to Jacob.
 **34**Then Jacob gave Esau bread and lentil stew, and he ate and drank and rose and went his way. Thus Esau despised his birthright.
 :::
 
-:::Passage{translation="New International Version"}
-**19**This is the account of the family line of Abraham's son Isaac.
+:::Passage{translation="Christian Standard Bible"}
+**19**These are the family records of Isaac son of Abraham. Abraham fathered Isaac.
+**20**Isaac was forty years old when he took as his wife Rebekah daughter of Bethuel the Aramean from Paddan-aram and sister of Laban the Aramean.
+**21**Isaac prayed to the LORD on behalf of his wife because she was childless. The LORD was receptive to his prayer, and his wife Rebekah conceived.
+**22**But the children inside her struggled with each other, and she said, "Why is this happening to me?" So she went to inquire of the LORD.
+**23**And the LORD said to her:
 
-Abraham became the father of Isaac,
-**20**and Isaac was forty years old when he married Rebekah daughter of Bethuel the Aramean from Paddan Aram and sister of Laban the Aramean.
+- Two nations are in your womb;
+- two peoples will come from you and be separated.
+- One people will be stronger than the other,
+- and the older will serve the younger.
 
-**21**Isaac prayed to the LORD on behalf of his wife, because she was childless. The LORD answered his prayer, and his wife Rebekah became pregnant.
-**22**The babies jostled each other within her, and she said, "Why is this happening to me?" So she went to inquire of the LORD.
+**24**When her time came to give birth, there were indeed twins in her womb.
+**25**The first one came out red-looking, covered with hair like a fur coat, and they named him Esau.
+**26**After this, his brother came out grasping Esau's heel with his hand. So he was named Jacob. Isaac was sixty years old when they were born.
 
-**23**The LORD said to her,
+**27**When the boys grew up, Esau became an expert hunter, an outdoorsman, but Jacob was a quiet man who stayed at home.
+**28**Isaac loved Esau because he had a taste for wild game, but Rebekah loved Jacob.
 
-- "Two nations are in your womb,
-- and two peoples from within you will be separated;
-- one people will be stronger than the other,
-- and the older will serve the younger."
-
-**24**When the time came for her to give birth, there were twin boys in her womb.
-**25**The first to come out was red, and his whole body was like a hairy garment; so they named him Esau.
-**26**After this, his brother came out, with his hand grasping Esau's heel; so he was named Jacob. Isaac was sixty years old when Rebekah gave birth to them.
-
-**27**The boys grew up, and Esau became a skillful hunter, a man of the open country, while Jacob was content to stay at home among the tents.
-**28**Isaac, who had a taste for wild game, loved Esau, but Rebekah loved Jacob.
-
-**29**Once when Jacob was cooking some stew, Esau came in from the open country, famished.
-**30**He said to Jacob, "Quick, let me have some of that red stew! I'm famished!" (That is why he was also called Edom.)
+**29**Once when Jacob was cooking a stew, Esau came in from the field exhausted.
+**30**He said to Jacob, "Let me eat some of that red stuff, because I'm exhausted." That is why he was also named Edom.
 
 **31**Jacob replied, "First sell me your birthright."
 
-**32**"Look, I am about to die," Esau said. "What good is the birthright to me?"
+**32**"Look," said Esau, "I'm about to die, so what good is a birthright to me?"
 
-**33**But Jacob said, "Swear to me first." So he swore an oath to him, selling his birthright to Jacob.
-
-**34**Then Jacob gave Esau some bread and some lentil stew. He ate and drank, and then got up and left.
-
-So Esau despised his birthright.
+**33**Jacob said, "Swear to me first." So he swore to Jacob and sold his birthright to him.
+**34**Then Jacob gave bread and lentil stew to Esau; he ate, drank, got up, and went away. So Esau despised his birthright.
 :::
 
 :::Passage{translation="New Living Translation"}

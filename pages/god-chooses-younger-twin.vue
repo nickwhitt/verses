@@ -3,20 +3,77 @@ const gen25 = [
   {
     number: 19,
     kjv: "And these <i>are</i> the generations of Isaac, Abraham's son: Abraham begat Isaac:",
-    nkjv: "<s>And these <i>are</i></s><u>This <i>is</i></u> the <s>generations</s><u>genealogy</u> of Isaac, Abraham's son. Abraham <s>begat</s><u>begot</u> Isaac.",
-    esv: "<s>And</s><u>These</u> are the generations of Isaac, Abraham's son: Abraham <s>begat</s><u>fathered</u> Isaac,",
+    nkjv: "<del>And these <i>are</i></del><ins>This <i>is</i></ins> the <del>generations</del><ins>genealogy</ins> of Isaac, Abraham's son. Abraham <del>begat</del><ins>begot</ins> Isaac.",
+    esv: "<del>And</del><ins>These</ins> are the generations of Isaac, Abraham's son: Abraham <del>begat</del><ins>fathered</ins> Isaac,",
+    nasb20:
+      "<del>And</del><ins>Now</ins> these are <ins>[the records of]</ins> the generations of Isaac, Abraham's son: Abraham <del>begat</del><ins>fathered</ins> Isaac;",
   },
 ];
 </script>
 
 <template>
-  <main class="lg:container mx-auto px-2">
+  <div class="lg:container mx-auto px-2">
     <p class="text-center text-xl font-bold dark:text-white py-6">
-      Genesis 25:19-34<br />Word for Word
+      Genesis 25:19-34
     </p>
-    <div class="grid sm:grid-cols-3 sm:text-sm lg:text-base xl:text-lg">
+
+    <p class="text-center dark:text-white pb-2">King James Version</p>
+    <div class="sm:columns-2 xl:text-lg pb-4">
+      <p class="indent-6">
+        <cite>19</cite>
+        And these <i>are</i> the generations of Isaac, Abraham's son: Abraham
+        begat Isaac: <cite>20</cite> And Isaac was forty years old when he took
+        Rebekah to wife, the daughter of Bethuel the Syrian of Padanaram, the
+        sister to Laban the Syrian. <cite>21</cite> And Isaac intreated the LORD
+        for his wife, because she <i>was</i> barren: and the LORD was intreated
+        of him, and Rebekah his wife conceived. <cite>22</cite> And the children
+        struggled together within her; and she said, If <i>it be</i> so, why
+        <i>am</i> I thus? And she went to enquire of the LORD.
+      </p>
+      <p class="indent-6">
+        <cite>23</cite> And the LORD said unto her, Two nations <i>are</i> in
+        thy womb, and two manner of people shall be separated from thy bowels;
+        and <i>the one</i> people shall be stronger than
+        <i>the other</i> people; and the elder shall serve the younger.
+      </p>
+      <p class="indent-6">
+        <cite>24</cite> And when her days to be delivered were fulfilled,
+        behold, <i>there were</i> twins in her womb. <cite>25</cite> And the
+        first came out red, all over like an hairy garment; and they called his
+        name Esau. <cite>26</cite> And after that came his brother out, and his
+        hand took hold on Esau's heel; and his name was called Jacob: and Isaac
+        <i>was</i> threescore years old when she bare them.
+      </p>
+      <p class="indent-6">
+        <cite>27</cite> And the boys grew: and Esau was a cunning hunter, a man
+        of the field; and Jacob <i>was</i> a plain man, dwelling in tents.
+        <cite>28</cite> And Isaac loved Esau, because he did eat of
+        <i>his</i> venison: but Rebekah loved Jacob.
+      </p>
+      <p class="indent-6">
+        <cite>29</cite> And Jacob sod pottage: and Esau came from the field, and
+        he <i>was</i> faint: <cite>30</cite> And Esau said to Jacob, Feed me, I
+        pray thee, with that same red <i>pottage</i>; for I <i>am</i> faint:
+        therefore was his name called Edom.
+      </p>
+      <p class="indent-6">
+        <cite>31</cite> And Jacob said, Sell me this day thy birthright.
+      </p>
+      <p class="indent-6">
+        <cite>32</cite> And Esau said, Behold, I <i>am</i> at the point to die:
+        and what profit shall this birthright do to me?
+      </p>
+      <p class="indent-6">
+        <cite>33</cite> And Jacob said, Swear to me this day; and he sware unto
+        him: and he sold his birthright unto Jacob. <cite>34</cite> Then Jacob
+        gave Esau bread and pottage of lentiles; and he did eat and drink, and
+        rose up, and went his way: thus Esau despised <i>his</i> birthright.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-3">
       <p class="hidden sm:block text-center dark:text-white pb-2">
-        King James Version
+        New American Standard Bible (2020)
       </p>
       <p class="hidden sm:block text-center dark:text-white pb-2">
         New King James Version
@@ -30,36 +87,29 @@ const gen25 = [
       v-for="verse in gen25"
       class="grid sm:grid-cols-3 sm:text-sm lg:text-base xl:text-lg"
     >
-      <div
-        v-for="translation in [verse.kjv, verse.nkjv, verse.esv]"
+      <article
+        v-for="translation in [verse.nasb20, verse.nkjv, verse.esv]"
         class="px-2 py-1"
       >
         <cite>{{ verse.number }}</cite>
-        <p v-html="translation" class="inline"></p>
-      </div>
+        <span v-html="translation"></span>
+      </article>
     </div>
 
     <div class="grid sm:grid-cols-3 sm:text-sm lg:text-base xl:text-lg">
-      <Verse number="20" translation="KJV">
-        And Isaac was forty years old when he took Rebekah to wife, the daughter
-        of Bethuel the Syrian of Padanaram, the sister to Laban the Syrian.
-      </Verse>
+      <Verse number="20" translation="NASB20"></Verse>
       <Verse number="20" translation="NKJV">
-        Isaac was forty years old when he took Rebekah <u>as</u> wife, the
-        daughter of Bethuel the Syrian of Padan Aram, the sister <u>of</u> Laban
-        the Syrian.
+        Isaac was forty years old when he took Rebekah <ins>as</ins> wife, the
+        daughter of Bethuel the Syrian of Padan Aram, the sister
+        <ins>of</ins> Laban the Syrian.
       </Verse>
       <Verse number="20" translation="ESV">
         and Isaac was forty years old when he took Rebekah, the daughter of
-        Bethuel the <u>Aramean</u> of Paddan-aram, the sister <u>of</u> Laban
-        the <u>Aramean, to be his wife</u>.
+        Bethuel the <ins>Aramean</ins> of Paddan-aram, the sister
+        <ins>of</ins> Laban the <ins>Aramean, to be his wife</ins>.
       </Verse>
 
-      <Verse number="21" translation="KJV">
-        And Isaac intreated the LORD for his wife, because she
-        <i class="italic">was</i> barren: and the LORD was intreated of him, and
-        Rebekah his wife conceived.
-      </Verse>
+      <Verse number="21" translation="NASB20"></Verse>
       <Verse number="21" translation="NKJV">
         Now Isaac pleaded with the LORD for his wife, because she
         <i class="italic">was</i> barren; and the LORD granted his plea, and
@@ -70,28 +120,19 @@ const gen25 = [
         the LORD granted his prayer, and Rebekah his wife conceived.
       </Verse>
 
-      <Verse number="22" translation="KJV">
-        And the children struggled together within her; and she said, If
-        <i class="italic">it be</i> so, why <i class="italic">am</i> I thus? And
-        she went to enquire of the LORD.
-      </Verse>
+      <Verse number="22" translation="NASB20"></Verse>
       <Verse number="22" translation="NKJV">
-        But the children struggled together within her; and she said, "If [all
-        is] well, why <i class="italic">am I like</i> this?" So she went to
-        inquire of the LORD.
+        But the children struggled together within her; and she said, "If
+        <i class="italic">all is</i> well, why
+        <i class="italic">am I like</i> this?" So she went to inquire of the
+        LORD.
       </Verse>
       <Verse number="22" translation="ESV">
         The children struggled together within her, and she said, "If it is
         thus, why is this happening to me?" So she went to inquire of the LORD.
       </Verse>
 
-      <Verse number="23" translation="KJV">
-        And the LORD said unto her, Two nations <i class="italic">are</i> in thy
-        womb, and two manner of people shall be separated from thy bowels; and
-        <i class="italic">the one</i> people shall be stronger than
-        <i class="italic">the other</i> people; and the elder shall serve the
-        younger.
-      </Verse>
+      <Verse number="23" translation="NASB20"></Verse>
       <Verse number="23" translation="NKJV">
         And the LORD said to her: "Two nations <i class="italic">are</i> in your
         womb, Two peoples shall be separated from your body;
@@ -104,23 +145,17 @@ const gen25 = [
         other, the older shall serve the younger."
       </Verse>
 
-      <Verse number="24" translation="KJV">
-        And when her days to be delivered were fulfilled, behold,
-        <i class="italic">there were</i> twins in her womb.
-      </Verse>
+      <Verse number="24" translation="NASB20"></Verse>
       <Verse number="24" translation="NKJV">
         So when her days were fulfilled <i class="italic">for her</i> to give
-        birth, indeed [there were] twins in her womb.
+        birth, indeed <i class="italic">there were</i> twins in her womb.
       </Verse>
       <Verse number="24" translation="ESV">
         When her days to give birth were completed, behold, there were twins in
         her womb.
       </Verse>
 
-      <Verse number="25" translation="KJV">
-        And the first came out red, all over like an hairy garment; and they
-        called his name Esau.
-      </Verse>
+      <Verse number="25" translation="NASB20"></Verse>
       <Verse number="25" translation="NKJV">
         And the first came out red. <i class="italic">He was</i> like a hairy
         garment all over; so they called his name Esau.
@@ -130,11 +165,7 @@ const gen25 = [
         his name Esau.
       </Verse>
 
-      <Verse number="26" translation="KJV">
-        And after that came his brother out, and his hand took hold on Esau's
-        heel; and his name was called Jacob: and Isaac
-        <i class="italic">was</i> threescore years old when she bare them.
-      </Verse>
+      <Verse number="26" translation="NASB20"></Verse>
       <Verse number="26" translation="NKJV">
         Afterward his brother came out, and his hand took hold of Esau's heel;
         so his name was called Jacob. Isaac <i class="italic">was</i> sixty
@@ -145,10 +176,7 @@ const gen25 = [
         name was called Jacob. Isaac was sixty years old when she bore them.
       </Verse>
 
-      <Verse number="27" translation="KJV">
-        And the boys grew: and Esau was a cunning hunter, a man of the field;
-        and Jacob <i class="italic">was</i> a plain man, dwelling in tents.
-      </Verse>
+      <Verse number="27" translation="NASB20"></Verse>
       <Verse number="27" translation="NKJV">
         So the boys grew. And Esau was a skillful hunter, a man of the field;
         but Jacob was a mild man, dwelling in tents.
@@ -158,10 +186,7 @@ const gen25 = [
         while Jacob was a quiet man, dwelling in tents.
       </Verse>
 
-      <Verse number="28" translation="KJV">
-        And Isaac loved Esau, because he did eat of
-        <i class="italic">his</i> venison: but Rebekah loved Jacob.
-      </Verse>
+      <Verse number="28" translation="NASB20"></Verse>
       <Verse number="28" translation="NKJV">
         And Isaac loved Esau because he ate <i class="italic">of his</i> game,
         but Rebekah loved Jacob.
@@ -170,10 +195,7 @@ const gen25 = [
         Isaac loved Esau because he ate of his game, but Rebekah loved Jacob.
       </Verse>
 
-      <Verse number="29" translation="KJV">
-        And Jacob sod pottage: and Esau came from the field, and he
-        <i class="italic">was</i> faint:
-      </Verse>
+      <Verse number="29" translation="NASB20"></Verse>
       <Verse number="29" translation="NKJV">
         Now Jacob cooked a stew; and Esau came in from the field, and he
         <i class="italic">was</i> weary.
@@ -183,11 +205,7 @@ const gen25 = [
         was exhausted.
       </Verse>
 
-      <Verse number="30" translation="KJV">
-        And Esau said to Jacob, Feed me, I pray thee, with that same red
-        <i class="italic">pottage</i>; for I <i class="italic">am</i> faint:
-        therefore was his name called Edom.
-      </Verse>
+      <Verse number="30" translation="NASB20"></Verse>
       <Verse number="30" translation="NKJV">
         And Esau said to Jacob, "Please feed me with that same red
         <i class="italic">stew</i>, for I <i class="italic">am</i> weary."
@@ -198,9 +216,7 @@ const gen25 = [
         exhausted!" (Therefore his name was called Edom.)
       </Verse>
 
-      <Verse number="31" translation="KJV">
-        And Jacob said, Sell me this day thy birthright.
-      </Verse>
+      <Verse number="31" translation="NASB20"></Verse>
       <Verse number="31" translation="NKJV">
         But Jacob said, "Sell me your birthright as of this day."
       </Verse>
@@ -208,10 +224,7 @@ const gen25 = [
         Jacob said, "Sell me your birthright now."
       </Verse>
 
-      <Verse number="32" translation="KJV">
-        And Esau said, Behold, I <i class="italic">am</i> at the point to die:
-        and what profit shall this birthright do to me?
-      </Verse>
+      <Verse number="32" translation="NASB20"></Verse>
       <Verse number="32" translation="NKJV">
         And Esau said, "Look, I <i class="italic">am</i> about to die; so what
         <i class="italic">is</i> this birthright to me?"
@@ -220,10 +233,7 @@ const gen25 = [
         Esau said, "I am about to die; of what use is a birthright to me?"
       </Verse>
 
-      <Verse number="33" translation="KJV">
-        And Jacob said, Swear to me this day; and he sware unto him: and he sold
-        his birthright unto Jacob.
-      </Verse>
+      <Verse number="33" translation="NASB20"></Verse>
       <Verse number="33" translation="NKJV">
         Then Jacob said, "Swear to me as of this day." So he swore to him, and
         sold his birthright to Jacob.
@@ -233,12 +243,7 @@ const gen25 = [
         birthright to Jacob.
       </Verse>
 
-      <Verse number="34" translation="KJV">
-        Then Jacob gave Esau bread and pottage of lentiles; and he did eat and
-        drink, and rose up, and went his way: thus Esau despised
-        <i class="italic">his</i>
-        birthright.
-      </Verse>
+      <Verse number="34" translation="NASB20"></Verse>
       <Verse number="34" translation="NKJV">
         And Jacob gave Esau bread and stew of lentils; then he ate and drank,
         arose, and went his way. Thus Esau despised
@@ -249,5 +254,5 @@ const gen25 = [
         rose and went his way. Thus Esau despised his birthright.
       </Verse>
     </div>
-  </main>
+  </div>
 </template>

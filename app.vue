@@ -15,3 +15,15 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
+
+<style>
+s {
+  font-weight: 100;
+}
+u {
+  text-decoration-line: underline;
+}
+i {
+  font-style: italic;
+}
+</style>

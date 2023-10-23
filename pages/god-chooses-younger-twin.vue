@@ -1,7 +1,7 @@
 <script setup>
 const gen25 = [
   {
-    verse: 19,
+    number: 19,
     kjv: "And these <i>are</i> the generations of Isaac, Abraham's son: Abraham begat Isaac:",
     nkjv: "<s>And these <i>are</i></s><u>This <i>is</i></u> the <s>generations</s><u>genealogy</u> of Isaac, Abraham's son. Abraham <s>begat</s><u>begot</u> Isaac.",
     esv: "<s>And</s><u>These</u> are the generations of Isaac, Abraham's son: Abraham <s>begat</s><u>fathered</u> Isaac,",
@@ -24,17 +24,22 @@ const gen25 = [
       <p class="hidden sm:block text-center dark:text-white pb-2">
         English Standard Version
       </p>
+    </div>
 
-      <Verse :number="gen25[0].verse" translation="KJV">
-        <span v-html="gen25[0].kjv"></span>
-      </Verse>
-      <Verse :number="gen25[0].verse" translation="NKJV">
-        <span v-html="gen25[0].nkjv"></span>
-      </Verse>
-      <Verse :number="gen25[0].verse" translation="ESV">
-        <span v-html="gen25[0].esv"></span>
-      </Verse>
+    <div
+      v-for="verse in gen25"
+      class="grid sm:grid-cols-3 sm:text-sm lg:text-base xl:text-lg"
+    >
+      <div
+        v-for="translation in [verse.kjv, verse.nkjv, verse.esv]"
+        class="px-2 py-1"
+      >
+        <cite>{{ verse.number }}</cite>
+        <p v-html="translation" class="inline"></p>
+      </div>
+    </div>
 
+    <div class="grid sm:grid-cols-3 sm:text-sm lg:text-base xl:text-lg">
       <Verse number="20" translation="KJV">
         And Isaac was forty years old when he took Rebekah to wife, the daughter
         of Bethuel the Syrian of Padanaram, the sister to Laban the Syrian.

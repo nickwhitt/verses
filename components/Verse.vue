@@ -13,15 +13,3 @@
 <script setup>
 const props = defineProps(["number", "translation"]);
 </script>
-
-<style>
-figure s {
-  font-weight: 100;
-}
-figure u {
-  text-decoration-line: underline;
-}
-figure i {
-  font-style: italic;
-}
-</style>

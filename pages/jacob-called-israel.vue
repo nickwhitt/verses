@@ -370,6 +370,10 @@
 
 <script setup>
 import { BookOpenIcon } from "@heroicons/vue/24/outline";
+useSeoMeta({
+  title: "Jacob Called Israel",
+  description: "Genesis 32:22-32",
+});
 </script>
 
 <style>

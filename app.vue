@@ -13,3 +13,19 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
+
+<script setup lang="ts">
+useHead({
+  htmlAttrs: { lang: "en-US" },
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png",
+    },
+  ],
+});
+useSeoMeta({
+  titleTemplate: (title?: string) => (!title ? "Verses" : `${title} - Verses`),
+});
+</script>

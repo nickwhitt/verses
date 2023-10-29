@@ -3,6 +3,7 @@ export default defineEventHandler((event) => {
     {
       number: 22,
       kjv: "<b>22</b>And he rose up that night, and took his two wives, and his two womenservants, and his eleven sons, and passed over the ford Jabbok.",
+      niv: "<b>22</b>That night Jacob got up and took his two wives, his two female servants and his eleven sons and crossed the ford of the Jabbok.",
       nkjv: "<b>22</b>And he arose that night and took his two wives, his two female servants, and his eleven sons, and crossed over the ford of Jabbok.",
       esv: "<b>22</b>The same night he arose and took his two wives, his two female servants, and his eleven children, and crossed the ford of the Jabbok.",
       csb: "<b>22</b>During the night Jacob got up and took his two wives, his two slave women, and his eleven sons, and crossed the ford of Jabbok.",
@@ -12,6 +13,7 @@ export default defineEventHandler((event) => {
     {
       number: 23,
       kjv: "<b>23</b>And he took them, and sent them over the brook, and sent over that he had.",
+      niv: "<b>23</b>After he had sent them across the stream, he sent over all his possessions.",
       nkjv: "<b>23</b>He took them, sent them over the brook, and sent over what he had.",
       esv: "<b>23</b>He took them and sent them across the stream, and everything else that he had.",
       csb: "<b>23</b>He took them and sent them across the stream, along with all his possessions.",
@@ -21,6 +23,7 @@ export default defineEventHandler((event) => {
     {
       number: 24,
       kjv: "<b>24</b>And Jacob was left alone; and there wrestled a man with him until the breaking of the day.",
+      niv: "<b>24</b>So Jacob was left alone, and a man wrestled with him till daybreak.",
       nkjv: "<b>24</b>Then Jacob was left alone; and a Man wrestled with him until the breaking of day.",
       esv: "<b>24</b>And Jacob was left alone. And a man wrestled with him until the breaking of the day.",
       csb: "<b>24</b>Jacob was left alone, and a man wrestled with him until daybreak.",
@@ -30,6 +33,7 @@ export default defineEventHandler((event) => {
     {
       number: 25,
       kjv: "<b>25</b>And when he saw that he prevailed not against him, he touched the hollow of his thigh; and the hollow of Jacob's thigh was out of joint, as he wrestled with him.",
+      niv: "<b>25</b>When the man saw that he could not overpower him, he touched the socket of Jacob's hip so that his hip was wrenched as he wrestled with the man.",
       nkjv: "<b>25</b>Now when He saw that He did not prevail against him, He touched the socket of his hip; and the socket of Jacob's hip was out of joint as He wrestled with him.",
       esv: "<b>25</b>When the man saw that he did not prevail against Jacob, he touched his hip socket, and Jacob's hip was put out of joint as he wrestled with him.",
       csb: "<b>25</b>When the man saw that he could not defeat him, he struck Jacob's hip socket as they wrestled and dislocated his hip.",
@@ -39,6 +43,7 @@ export default defineEventHandler((event) => {
     {
       number: 26,
       kjv: "<b>26</b>And he said, Let me go, for the day breaketh. And he said, I will not let thee go, except thou bless me.",
+      niv: '<b>26</b>Then the man said, "Let me go, for it is daybreak." But Jacob replied, "I will not let you go unless you bless me."',
       nkjv: '<b>26</b>And He said, "Let Me go, for the day breaks." But he said, "I will not let You go unless You bless me!"',
       esv: '<b>26</b>Then he said, "Let me go, for the day has broken." But Jacob said, "I will not let you go unless you bless me."',
       csb: '<b>26</b>Then he said to Jacob, "Let me go, for it is daybreak." But Jacob said, "I will not let you go unless you bless me."',
@@ -48,6 +53,7 @@ export default defineEventHandler((event) => {
     {
       number: 27,
       kjv: "<b>27</b>And he said unto him, What <i>is</i> thy name? And he said, Jacob.",
+      niv: '<b>27</b>The man asked him, "What is your name?" "Jacob," he answered.',
       nkjv: '<b>27</b>So He said to him, "What <i>is</i> your name?" He said, "Jacob."',
       esv: '<b>27</b>And he said to him, "What is your name?" And he said, "Jacob."',
       csb: '<b>27</b>"What is your name?" the man asked. "Jacob," he replied.',
@@ -56,6 +62,8 @@ export default defineEventHandler((event) => {
     },
     {
       number: 28,
+      kjv: "<b>28</b>And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed.",
+      niv: '<b>28</b>Then the man said, "Your name will no longer be Jacob, but Israel, because you have struggled with God and with humans and have overcome."',
       nkjv: '<b>28</b>And He said, "Your name shall no longer be called Jacob, but Israel; for you have struggled with God and with men, and have prevailed."',
       esv: '<b>28</b>Then he said, "Your name shall no longer be called Jacob, but Israel, for you have striven with God and with men, and have prevailed."',
       csb: '<b>28</b>"Your name will no longer be Jacob," he said. "It will be Israel because you have struggled with God and with men and have prevailed."',
@@ -64,6 +72,8 @@ export default defineEventHandler((event) => {
     },
     {
       number: 29,
+      kjv: "<b>29</b>And Jacob asked <i>him</i>, and said, Tell <i>me</i>, I pray thee, thy name. And he said, Wherefore <i>is</i> it <i>that</i> thou dost ask after my name? And he blessed him there.",
+      niv: '<b>29</b>Jacob said, "Please tell me your name." But he replied, "Why do you ask my name?" Then he blessed him there.',
       nkjv: '<b>29</b>Then Jacob asked, saying, "Tell <i>me</i> Your name, I pray." And He said, "Why <i>is</i> it <i>that</i> you ask about My name?" And He blessed him there.',
       esv: '<b>29</b>Then Jacob asked him, "Please tell me your name." But he said, "Why is it that you ask my name?" And there he blessed him.',
       csb: '<b>29</b>Then Jacob asked him, "Please tell me your name." But he answered, "Why do you ask my name?" And he blessed him there.',
@@ -72,6 +82,8 @@ export default defineEventHandler((event) => {
     },
     {
       number: 30,
+      kjv: "<b>30</b>And Jacob called the name of the place Peniel: for I have seen God face to face, and my life is preserved.",
+      niv: '<b>30</b>So Jacob called the place Peniel, saying, "It is because I saw God face to face, and yet my life was spared."',
       nkjv: '<b>30</b>So Jacob called the name of the place Peniel: "For I have seen God face to face, and my life is preserved."',
       esv: '<b>30</b>So Jacob called the name of the place Peniel, saying, "For I have seen God face to face, and yet my life has been delivered."',
       csb: '<b>30</b>Jacob then named the place Peniel, "For I have seen God face to face," he said, "yet my life has been spared."',
@@ -80,6 +92,8 @@ export default defineEventHandler((event) => {
     },
     {
       number: 31,
+      kjv: "<b>31</b>And as he passed over Penuel the sun rose upon him, and he halted upon his thigh.",
+      niv: "<b>31</b>The sun rose above him as he passed Peniel, and he was limping because of his hip.",
       nkjv: "<b>31</b>Just as he crossed over Penuel the sun rose on him, and he limped on his hip.",
       esv: "<b>31</b>The sun rose upon him as he passed Penuel, limping because of his hip.",
       csb: "<b>31</b>The sun shone on him as he passed by Penuel -- limping because of his hip.",
@@ -88,6 +102,8 @@ export default defineEventHandler((event) => {
     },
     {
       number: 32,
+      kjv: "<b>32</b>Therefore the children of Israel eat not <i>of</i> the sinew which shrank, which <i>is</i> upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob's thigh in the sinew that shrank.",
+      niv: "<b>32</b>Therefore to this day the Israelites do not eat the tendon attached to the socket of the hip, because the socket of Jacob's hip was touched near the tendon.",
       nkjv: "<b>32</b>Therefore to this day the children of Israel do not eat the muscle that shrank, which <i>is</i> on the hip socket, because He touched the socket of Jacob's hip in the muscle that shrank.",
       esv: "<b>32</b>Therefore to this day the people of Israel do not eat the sinew of the thigh that is on the hip socket, because he touched the socket of Jacob's hip on the sinew of the thigh.",
       csb: "<b>32</b>That is why, still today, the Israelites don't eat the thigh muscle that is at the hip socket: because he struck Jacob's hip socket at the thigh muscle.",

@@ -6,17 +6,18 @@ useSeoMeta({
 });
 
 const { data: gen12 } = await useFetch("/api/gen12");
+const { data: gen15 } = await useFetch("/api/gen15");
 </script>
 
 <template>
   <Body class="text-slate-700 dark:text-slate-300 dark:bg-slate-900" />
-  <div class="xl:container mx-auto px-4">
+  <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <hgroup class="prose prose-slate dark:prose-invert py-8">
       <p class="font-light mb-0">God Calls Abraham's Family</p>
       <h1 class="m-0">The Call of Abram</h1>
       <p class="flex items-center font-light gap-2 mt-0">
         <BookOpenIcon class="h-5 w-5" />
-        Genesis 12:1-7; 15:1-7
+        Genesis 12:1-5, 7; 15:1-7
       </p>
     </hgroup>
 
@@ -43,9 +44,7 @@ const { data: gen12 } = await useFetch("/api/gen12");
             Lot his brother's son, and all their substance that they had
             gathered, and the souls that they had gotten in Haran; and they went
             forth to go into the land of Canaan; and into the land of Canaan
-            they came. <b>6</b>And Abram passed through the land unto the place
-            of Sichem, unto the plain of Moreh. And the Canaanite
-            <i>was</i> then in the land.
+            they came.
           </p>
           <p>
             <b>7</b>And the LORD appeared unto Abram, and said, Unto thy seed
@@ -110,11 +109,9 @@ const { data: gen12 } = await useFetch("/api/gen12");
             they set out for the land of Canaan, and they arrived there.
           </p>
           <p>
-            <b>6</b>Abram traveled through the land as far as the site of the
-            great tree of Moreh at Shechem. At that time the Canaanites were in
-            the land. <b>7</b>The LORD appeared to Abram and said, "To your
-            offspring I will give this land." So he built an altar there to the
-            LORD, who had appeared to him.
+            <b>7</b>The LORD appeared to Abram and said, "To your offspring I
+            will give this land." So he built an altar there to the LORD, who
+            had appeared to him.
           </p>
           <p>
             <span class="text-4xl mr-1">15</span>
@@ -164,10 +161,23 @@ const { data: gen12 } = await useFetch("/api/gen12");
         class="contents text-sm xl:text-base"
       >
         <li
+          v-if="number != 6"
           v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
-          :data-reference="'GEN 32:' + verse.number + ' ' + t.toUpperCase()"
+          :data-reference="'GEN 12:' + number + ' ' + t.toUpperCase()"
           :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
           v-html="'<b>12:' + number + '</b> ' + verse[t]"
+        ></li>
+      </ul>
+
+      <ul
+        v-for="(verse, number) in gen15"
+        class="contents text-sm xl:text-base"
+      >
+        <li
+          v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
+          :data-reference="'GEN 15:' + number + ' ' + t.toUpperCase()"
+          :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
+          v-html="'<b>15:' + number + '</b> ' + verse[t]"
         ></li>
       </ul>
     </aside>

@@ -127,12 +127,15 @@ const { data: gen32 } = await useFetch("/api/gen32");
         <h2>New Living Translation</h2>
       </div>
 
-      <ul v-for="verse in gen32" class="contents text-sm xl:text-base">
+      <ul
+        v-for="(verse, number) in gen32"
+        class="contents text-sm xl:text-base"
+      >
         <li
           v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
-          :data-reference="'GEN 32:' + verse.number + ' ' + t.toUpperCase()"
+          :data-reference="'GEN 32:' + number + ' ' + t.toUpperCase()"
           :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
-          v-html="verse[t]"
+          v-html="'<b>32:' + number + '</b> ' + verse[t]"
         ></li>
       </ul>
     </aside>

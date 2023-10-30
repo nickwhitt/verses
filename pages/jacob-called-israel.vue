@@ -138,16 +138,3 @@ const { data: gen32 } = await useFetch("/api/gen32");
     </aside>
   </div>
 </template>
-
-<style>
-i {
-  font-style: italic;
-}
-b {
-  font-weight: lighter;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  vertical-align: text-top;
-  margin-right: 0.125rem;
-}
-</style>

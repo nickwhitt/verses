@@ -29,19 +29,3 @@ useSeoMeta({
   titleTemplate: (title?: string) => (!title ? "Verses" : `${title} - Verses`),
 });
 </script>
-
-<style>
-i {
-  font-style: italic;
-}
-li b {
-  font-weight: lighter;
-}
-p b {
-  font-weight: lighter;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  vertical-align: text-top;
-  margin-right: 0.125rem;
-}
-</style>

@@ -9,7 +9,13 @@ useSeoMeta({
   description: lesson.description,
 });
 
-const { data: gen12 } = await useFetch("/api/gen12");
+const { data: gen12 } = await useFetch("/api/gen12", {
+  transform: (verses) => {
+    return verses.filter((verse) => {
+      return verse.number != 6;
+    });
+  },
+});
 const { data: gen15 } = await useFetch("/api/gen15");
 </script>
 
@@ -139,38 +145,10 @@ const { data: gen15 } = await useFetch("/api/gen15");
     </main>
 
     <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
-      <div class="contents font-semibold text-center dark:text-slate-100">
-        <h2 class="hidden lg:block">New King James Version</h2>
-        <h2>English Standard Version</h2>
-        <h2>Christian Standard Bible</h2>
-        <h2 class="hidden lg:block">New English Translation</h2>
-        <h2>New Living Translation</h2>
-      </div>
-
-      <ul
-        v-for="(verse, number) in gen12"
-        class="contents text-sm xl:text-base"
-      >
-        <li
-          v-if="number != 6"
-          v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
-          :data-reference="'GEN 12:' + number + ' ' + t.toUpperCase()"
-          :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
-          v-html="'<b>12:' + number + '</b> ' + verse[t]"
-        ></li>
-      </ul>
-
-      <ul
-        v-for="(verse, number) in gen15"
-        class="contents text-sm xl:text-base"
-      >
-        <li
-          v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
-          :data-reference="'GEN 15:' + number + ' ' + t.toUpperCase()"
-          :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
-          v-html="'<b>15:' + number + '</b> ' + verse[t]"
-        ></li>
-      </ul>
+      <VerseGrid chapter="12" :verses="gen12" />
+      <VerseGrid chapter="15" :verses="gen15">
+        <template #header><p class="hidden" /></template>
+      </VerseGrid>
     </aside>
   </div>
 </template>

@@ -15,10 +15,7 @@ defineProps(["translation"]);
 :slotted(i) {
   font-style: italic;
 }
-:slotted(li b) {
-  font-weight: lighter;
-}
-:slotted(p b) {
+:slotted(b) {
   font-weight: lighter;
   font-size: 0.75rem;
   line-height: 1rem;

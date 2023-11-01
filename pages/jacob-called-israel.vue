@@ -4,6 +4,7 @@ const lesson = {
   title: "Jacob Called Israel",
   description: "Genesis 32:22-32",
 };
+
 useSeoMeta({
   title: lesson.title,
   description: lesson.description,
@@ -112,25 +113,7 @@ const { data: gen32 } = await useFetch("/api/gen32");
     </main>
 
     <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
-      <div class="contents font-semibold text-center dark:text-slate-100">
-        <h2 class="hidden lg:block">New King James Version</h2>
-        <h2>English Standard Version</h2>
-        <h2>Christian Standard Bible</h2>
-        <h2 class="hidden lg:block">New English Translation</h2>
-        <h2>New Living Translation</h2>
-      </div>
-
-      <ul
-        v-for="(verse, number) in gen32"
-        class="contents text-sm xl:text-base"
-      >
-        <li
-          v-for="t in ['nkjv', 'esv', 'csb', 'net', 'nlt']"
-          :data-reference="'GEN 32:' + number + ' ' + t.toUpperCase()"
-          :class="{ 'hidden lg:block': t == 'nkjv' || t == 'net' }"
-          v-html="'<b>32:' + number + '</b> ' + verse[t]"
-        ></li>
-      </ul>
+      <VerseGrid chapter="32" :verses="gen32" />
     </aside>
   </div>
 </template>

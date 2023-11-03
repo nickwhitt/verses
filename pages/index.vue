@@ -1,7 +1,7 @@
 <script setup>
 const units = [
   {
-    name: "God Call's Abraham's Family",
+    name: "God Calls Abraham's Family",
     lessons: [
       { name: "The Call of Abram", slug: "call-of-abram" },
       {

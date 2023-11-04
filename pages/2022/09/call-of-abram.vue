@@ -120,10 +120,10 @@ const { data: gen15 } = await useFetch("/api/gen15");
           <span class="ml-8">your very great reward."</span>
         </p>
         <p>
-          <b>2</b>But Abram said, "Sovereign LORD, what can you give me since I
-          remain childless and the one who will inherit my estate is Eliezer of
-          Damascus?" <b>3</b>And Abram said, "You have given me no children; so
-          a servant in my household will be my heir."
+          <b>2</b>But Abram said, "Sovereign <Lord />, what can you give me
+          since I remain childless and the one who will inherit my estate is
+          Eliezer of Damascus?" <b>3</b>And Abram said, "You have given me no
+          children; so a servant in my household will be my heir."
         </p>
         <p>
           <b>4</b>Then the word of the <Lord /> came to him: "This man will not

@@ -1,37 +1,6 @@
 <script setup>
-const units = [
-  {
-    name: "God Calls Abraham's Family",
-    lessons: [
-      { name: "The Call of Abram", slug: "call-of-abram" },
-      {
-        name: "God Chooses The Younger Twin",
-        slug: "god-chooses-younger-twin",
-      },
-      { name: "Jacob Called Israel", slug: "jacob-called-israel" },
-      { name: "The Scepter Given to Judah", slug: "scepter-given-to-judah" },
-    ],
-  },
-  {
-    name: "Out of Slavery to Nationhood",
-    lessons: [
-      { name: "The Birth of Moses" },
-      { name: "Song of Moses" },
-      { name: "The Call of Gideon" },
-      { name: "Who Is King?" },
-      { name: "David Anointed as King" },
-    ],
-  },
-  {
-    name: "We Are God's Artwork",
-    lessons: [
-      { name: "God Picked You!" },
-      { name: "Christ Is Wisdom" },
-      { name: "We Are God's Handiwork" },
-      { name: "God Gives Tools for Our Protection" },
-    ],
-  },
-];
+import { CalendarIcon } from "@heroicons/vue/24/outline";
+const { data: cycles } = await useFetch("/api/cycles");
 </script>
 
 <template>
@@ -41,31 +10,39 @@ const units = [
       <h1 class="m-0">International Sunday School Lessons</h1>
     </header>
 
-    <div class="prose prose-slate dark:prose-invert">
-      <h2 class="mb-4 md:mb-6">God's Exceptional Choice</h2>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-4">
-      <div
-        v-for="unit in units"
-        class="md:border dark:border-slate-700 rounded-lg h-fit"
-      >
-        <div class="py-2 md:px-4 border-b dark:border-slate-700">
-          <h3 class="text-lg tracking-tight font-medium">
-            {{ unit.name }}
-          </h3>
-        </div>
-        <ol class="py-2 px-4 list-none space-y-2">
-          <li v-for="lesson in unit.lessons">
-            <NuxtLink
-              :to="lesson.slug"
-              class="not-prose hover:dark:text-slate-200 hover:underline"
-            >
-              {{ lesson.name }}
-            </NuxtLink>
-          </li>
-        </ol>
+    <article v-for="cycle in cycles" class="">
+      <div class="prose prose-slate dark:prose-invert">
+        <hgroup>
+          <p class="flex items-center font-light gap-2 my-0">
+            <CalendarIcon class="h-5 w-5" />
+            {{ cycle.quarter }}
+          </p>
+          <h2 class="mt-0">{{ cycle.name }}</h2>
+        </hgroup>
       </div>
-    </div>
+
+      <div class="grid md:grid-cols-3 gap-4">
+        <div
+          v-for="unit in cycle.units"
+          class="md:border dark:border-slate-700 rounded-lg h-fit"
+        >
+          <div class="py-2 md:px-4 border-b dark:border-slate-700">
+            <h3 class="text-xl font-medium tracking-tight">
+              {{ unit.name }}
+            </h3>
+          </div>
+          <ol class="py-2 px-4 list-none space-y-2">
+            <li v-for="lesson in unit.lessons">
+              <NuxtLink
+                :to="lesson.slug"
+                class="not-prose hover:dark:text-slate-200 hover:underline"
+              >
+                {{ lesson.name }}
+              </NuxtLink>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </article>
   </div>
 </template>

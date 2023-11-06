@@ -129,7 +129,7 @@ const { data: gen15 } = await useFetch("/api/gen15");
           <b>4</b>Then the word of the <Lord /> came to him: "This man will not
           be your heir, but a son who is your own flesh and blood will be your
           heir." <b>5</b>He took him outside and said, "Look up at the sky and
-          count the stars—if indeed you can count them." Then he said to him,
+          count the stars--if indeed you can count them." Then he said to him,
           "So shall your offspring be."
         </p>
         <p>

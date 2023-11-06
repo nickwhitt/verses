@@ -1,11 +1,8 @@
 export default defineEventHandler((event) => {
   return [
-    { name: "The Righteous Reign of God", quarter: "Summer 2023", units: [] },
-    { name: "Jesus Calls Us", quarter: "Spring 2023", units: [] },
-    { name: "From Darkness to Light", quarter: "Winter 2022-2023", units: [] },
     {
       name: "God's Exceptional Choice",
-      quarter: "Fall 2022",
+      quarter: "Fall",
       units: [
         {
           name: "God Calls Abraham's Family",
@@ -55,5 +52,8 @@ export default defineEventHandler((event) => {
         },
       ],
     },
+    { name: "From Darkness to Light", quarter: "Winter", units: [] },
+    { name: "Jesus Calls Us", quarter: "Spring", units: [] },
+    { name: "The Righteous Reign of God", quarter: "Summer", units: [] },
   ];
 });

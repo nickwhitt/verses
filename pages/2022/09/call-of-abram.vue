@@ -59,10 +59,10 @@ const { data: gen15 } = await useFetch("/api/gen15");
           <i>and</i> thy exceeding great reward.
         </p>
         <p>
-          <b>2</b>And Abram said, Lord GOD, what wilt thou give me, seeing I go
-          childless, and the steward of my house <i>is</i> this Eliezer of
-          Damascus? <b>3</b>And Abram said, Behold, to me thou hast given no
-          seed: and, lo, one born in my house is mine heir.
+          <b>2</b>And Abram said, Lord <Lord>God</Lord>, what wilt thou give me,
+          seeing I go childless, and the steward of my house <i>is</i> this
+          Eliezer of Damascus? <b>3</b>And Abram said, Behold, to me thou hast
+          given no seed: and, lo, one born in my house is mine heir.
         </p>
         <p>
           <b>4</b>And, behold, the word of the <Lord /> <i>came</i> unto him,

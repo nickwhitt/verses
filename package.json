@@ -2,10 +2,12 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "clean": "rm -rf .nuxt .output dist",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "NUXT_APP_BASE_URL=/verses/ nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "release": "ghp-import -p -o -n dist"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.16",

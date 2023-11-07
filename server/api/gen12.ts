@@ -2,11 +2,11 @@ export default defineEventHandler((event) => {
   return [
     {
       number: 1,
-      nkjv: "Now the LORD had said to Abram: \"Get out of your country, From your family And from your father's house, To a land that I will show you.",
-      esv: "Now the LORD said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you.",
-      csb: "The LORD said to Abram: Go from your land, your relatives, and your father's house to the land that I will show you.",
-      net: "Now the LORD said to Abram, \"Go out from your country, your relatives, and your father's household to the land that I will show you.",
-      nlt: "The LORD had said to Abram, \"Leave your native country, your relatives, and your father's family, and go to the land that I will show you.",
+      nkjv: "Now the <em>Lord</em> had said to Abram: \"Get out of your country, From your family And from your father's house, To a land that I will show you.",
+      esv: "Now the <em>Lord</em> said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you.",
+      csb: "The <em>Lord</em> said to Abram: Go from your land, your relatives, and your father's house to the land that I will show you.",
+      net: "Now the <em>Lord</em> said to Abram, \"Go out from your country, your relatives, and your father's household to the land that I will show you.",
+      nlt: "The <em>Lord</em> had said to Abram, \"Leave your native country, your relatives, and your father's family, and go to the land that I will show you.",
     },
     {
       number: 2,
@@ -26,11 +26,11 @@ export default defineEventHandler((event) => {
     },
     {
       number: 4,
-      nkjv: "So Abram departed as the LORD had spoken to him, and Lot went with him. And Abram <i>was</i> seventy-five years old when he departed from Haran.",
-      esv: "So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he departed from Haran.",
-      csb: "So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he left Haran.",
-      net: "So Abram left, just as the LORD had told him to do, and Lot went with him. (Now Abram was 75 years old when he departed from Haran.)",
-      nlt: "So Abram departed as the LORD had instructed, and Lot went with him. Abram was seventy-five years old when he left Haran.",
+      nkjv: "So Abram departed as the <em>Lord</em> had spoken to him, and Lot went with him. And Abram <i>was</i> seventy-five years old when he departed from Haran.",
+      esv: "So Abram went, as the <em>Lord</em> had told him, and Lot went with him. Abram was seventy-five years old when he departed from Haran.",
+      csb: "So Abram went, as the <em>Lord</em> had told him, and Lot went with him. Abram was seventy-five years old when he left Haran.",
+      net: "So Abram left, just as the <em>Lord</em> had told him to do, and Lot went with him. (Now Abram was 75 years old when he departed from Haran.)",
+      nlt: "So Abram departed as the <em>Lord</em> had instructed, and Lot went with him. Abram was seventy-five years old when he left Haran.",
     },
     {
       number: 5,
@@ -50,11 +50,11 @@ export default defineEventHandler((event) => {
     },
     {
       number: 7,
-      nkjv: 'Then the LORD appeared to Abram and said, "To your descendants I will give this land." And there he built an altar to the LORD, who had appeared to him.',
-      esv: 'Then the LORD appeared to Abram and said, "To your offspring I will give this land." So he built there an altar to the LORD, who had appeared to him.',
-      csb: 'The LORD appeared to Abram and said, "To your offspring I will give this land." So he built an altar there to the LORD who had appeared to him.',
-      net: 'The LORD appeared to Abram and said, "To your descendants I will give this land." So Abram built an altar there to the LORD, who had appeared to him.',
-      nlt: 'Then the LORD appeared to Abram and said, "I will give this land to your descendants." And Abram built an altar there and dedicated it to the LORD, who had appeared to him.',
+      nkjv: 'Then the <em>Lord</em> appeared to Abram and said, "To your descendants I will give this land." And there he built an altar to the <em>Lord</em>, who had appeared to him.',
+      esv: 'Then the <em>Lord</em> appeared to Abram and said, "To your offspring I will give this land." So he built there an altar to the <em>Lord</em>, who had appeared to him.',
+      csb: 'The <em>Lord</em> appeared to Abram and said, "To your offspring I will give this land." So he built an altar there to the <em>Lord</em> who had appeared to him.',
+      net: 'The <em>Lord</em> appeared to Abram and said, "To your descendants I will give this land." So Abram built an altar there to the <em>Lord</em>, who had appeared to him.',
+      nlt: 'Then the <em>Lord</em> appeared to Abram and said, "I will give this land to your descendants." And Abram built an altar there and dedicated it to the <em>Lord</em>, who had appeared to him.',
     },
   ];
 });

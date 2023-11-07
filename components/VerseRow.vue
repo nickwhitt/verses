@@ -13,8 +13,12 @@ defineProps(["chapter", "verse"]);
 </script>
 
 <style scoped>
-:slotted(i) {
+:deep(i) {
   font-style: italic;
+}
+:deep(em) {
+  font-style: normal;
+  font-variant: small-caps;
 }
 b {
   font-weight: lighter;

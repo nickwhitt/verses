@@ -1,5 +1,9 @@
 <template>
-  <span class="uppercase">
-    L<span class="text-xs md:text-sm xl:text-base">ord</span>
-  </span>
+  <span><slot>Lord</slot></span>
 </template>
+
+<style scoped>
+span {
+  font-variant: small-caps;
+}
+</style>

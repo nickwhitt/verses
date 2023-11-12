@@ -18,7 +18,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>10</b>Finally, my brethren, be strong in the Lord, and in the power
           of his might. <b>11</b>Put on the whole armour of God, that ye may be
@@ -41,7 +41,7 @@ useSeoMeta({
           for all saints;
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>10</b>Finally, be strong in the Lord and in his mighty power.
           <b>11</b>Put on the full armor of God, so that you can take your stand

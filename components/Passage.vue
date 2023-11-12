@@ -3,11 +3,13 @@ defineProps(["translation"]);
 </script>
 
 <template>
-  <article class="prose prose-slate dark:prose-invert">
-    <h2 class="sm:text-center">{{ translation }}</h2>
-    <div class="sm:prose-sm md:prose-base xl:prose-lg">
-      <slot></slot>
+  <article class="sm:text-sm md:text-base xl:text-lg">
+    <div class="sm:text-center mb-6">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">
+        {{ translation }}
+      </h2>
     </div>
+    <slot></slot>
   </article>
 </template>
 
@@ -17,9 +19,25 @@ defineProps(["translation"]);
 }
 :slotted(b) {
   font-weight: lighter;
+}
+:slotted(p b) {
   font-size: 0.75rem;
   line-height: 1rem;
   vertical-align: text-top;
   margin-right: 0.125rem;
+}
+:slotted(p:not(.lead)) {
+  text-indent: 1.5rem;
+}
+:slotted(ol) {
+  margin-left: 2rem;
+}
+:slotted(li) {
+  position: relative;
+  text-indent: 1.5rem hanging;
+}
+:slotted(li b) {
+  position: absolute;
+  left: -2rem;
 }
 </style>

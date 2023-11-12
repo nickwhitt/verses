@@ -1,8 +1,10 @@
 <template>
-  <hgroup class="prose prose-slate dark:prose-invert py-8">
-    <p class="font-light mb-0">{{ unit }}</p>
-    <h1 class="m-0">{{ title }}</h1>
-    <p class="flex items-center font-light gap-2 mt-0">
+  <hgroup class="py-8">
+    <p class="font-light">{{ unit }}</p>
+    <h1 class="text-4xl font-extrabold text-slate-900 dark:text-white">
+      {{ title }}
+    </h1>
+    <p class="flex items-center font-light gap-2">
       <BookOpenIcon class="h-5 w-5" />
       {{ description }}
     </p>

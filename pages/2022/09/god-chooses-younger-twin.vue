@@ -20,7 +20,7 @@ const { data: gen25 } = await useFetch("/api/gen25");
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>19</b>And these <i>are</i> the generations of Isaac, Abraham's son:
           Abraham begat Isaac: <b>20</b>And Isaac was forty years old when he
@@ -70,7 +70,7 @@ const { data: gen25 } = await useFetch("/api/gen25");
           and went his way: thus Esau despised <i>his</i> birthright.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>19</b>This is the account of the family line of Abraham's son
           Isaac.
@@ -88,14 +88,14 @@ const { data: gen25 } = await useFetch("/api/gen25");
           inquire of the <Lord />.
         </p>
         <p><b>23</b>The <Lord /> said to her,</p>
-        <p class="ml-4">
-          "Two nations are in your womb,
-          <span class="ml-8 block">
+        <ol class="my-4">
+          <li>"Two nations are in your womb,</li>
+          <li class="ml-6">
             and two peoples from within you will be separated;
-          </span>
-          one people will be stronger than the other,
-          <span class="ml-8 block">and the older will serve the younger."</span>
-        </p>
+          </li>
+          <li>one people will be stronger than the other,</li>
+          <li class="ml-6">and the older will serve the younger."</li>
+        </ol>
         <p>
           <b>24</b>When the time came for her to give birth, there were twin
           boys in her womb. <b>25</b>The first to come out was red, and his

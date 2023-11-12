@@ -1,5 +1,4 @@
 <script setup>
-import { CalendarIcon } from "@heroicons/vue/24/outline";
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
 const { data: cycles } = await useFetch("/api/cycles");
 </script>
@@ -7,8 +6,10 @@ const { data: cycles } = await useFetch("/api/cycles");
 <template>
   <Body class="text-slate-700 dark:text-slate-300 dark:bg-slate-900" />
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
-    <header class="prose prose-slate dark:prose-invert py-8">
-      <h1 class="m-0">International Sunday School Lessons</h1>
+    <header class="py-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-white">
+        International Sunday School Lessons
+      </h1>
     </header>
 
     <TabGroup :defaultIndex="0">
@@ -20,8 +21,10 @@ const { data: cycles } = await useFetch("/api/cycles");
       </TabList>
       <TabPanels>
         <TabPanel v-for="cycle in cycles">
-          <div class="prose prose-slate dark:prose-invert">
-            <h2 class="py-6">{{ cycle.name }}</h2>
+          <div class="py-6">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white">
+              {{ cycle.name }}
+            </h2>
           </div>
 
           <div class="grid md:grid-cols-3 gap-4">
@@ -38,7 +41,7 @@ const { data: cycles } = await useFetch("/api/cycles");
                 <li v-for="lesson in unit.lessons">
                   <NuxtLink
                     :to="lesson.slug"
-                    class="not-prose hover:dark:text-slate-200 hover:underline"
+                    class="hover:dark:text-slate-200 hover:underline"
                   >
                     {{ lesson.name }}
                   </NuxtLink>

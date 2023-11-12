@@ -18,7 +18,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>1</b>And the children of Israel did evil in the sight of the
           <Lord />: and the <Lord /> delivered them into the hand of Midian
@@ -69,7 +69,7 @@ useSeoMeta({
           and thou shalt smite the Midianites as one man.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>1</b>The Israelites did evil in the eyes of the <Lord />, and for
           seven years he gave them into the hands of the Midianites.

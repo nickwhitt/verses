@@ -21,7 +21,7 @@ const { data: gen32 } = await useFetch("/api/gen32");
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>22</b>And he rose up that night, and took his two wives, and his
           two womenservants, and his eleven sons, and passed over the ford
@@ -67,7 +67,7 @@ const { data: gen32 } = await useFetch("/api/gen32");
           shrank.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>22</b>That night Jacob got up and took his two wives, his two
           female servants and his eleven sons and crossed the ford of the

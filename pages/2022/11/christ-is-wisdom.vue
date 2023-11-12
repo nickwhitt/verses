@@ -18,7 +18,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>15</b>Wherefore I also, after I heard of your faith in the Lord
           Jesus, and love unto all the saints, <b>16</b>Cease not to give thanks
@@ -42,7 +42,7 @@ useSeoMeta({
           all.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>15</b>For this reason, ever since I heard about your faith in the
           Lord Jesus and your love for all God's people, <b>16</b>I have not

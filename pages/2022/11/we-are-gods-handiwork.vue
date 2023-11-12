@@ -18,7 +18,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>1</b>And you <i>hath he quickened</i>, who were dead in trespasses
           and sins; <b>2</b>Wherein in time past ye walked according to the
@@ -42,7 +42,7 @@ useSeoMeta({
           God hath before ordained that we should walk in them.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>1</b>As for you, you were dead in your transgressions and sins,
           <b>2</b>in which you used to live when you followed the ways of this

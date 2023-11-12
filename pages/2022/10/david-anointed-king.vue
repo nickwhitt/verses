@@ -18,7 +18,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>1</b>And the <Lord /> said unto Samuel, How long wilt thou mourn
           for Saul, seeing I have rejected him from reigning over Israel? fill
@@ -70,7 +70,7 @@ useSeoMeta({
           from that day forward. So Samuel rose up, and went to Ramah.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>1</b>The <Lord /> said to Samuel, "How long will you mourn for
           Saul, since I have rejected him as king over Israel? Fill your horn

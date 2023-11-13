@@ -13,12 +13,31 @@ const { data: cycles } = await useFetch("/api/cycles");
     </header>
 
     <TabGroup :defaultIndex="0">
-      <p>2022-2023</p>
-      <TabList class="flex gap-6 border-b dark:border-slate-700">
-        <Tab v-for="cycle in cycles" v-slot="{ selected }">
-          <span :class="{ 'border-b': selected }">{{ cycle.quarter }}</span>
-        </Tab>
-      </TabList>
+      <div class="border-b dark:border-slate-700">
+        <div class="md:flex items-baseline">
+          <h3 class="font-semibold">2022-2023</h3>
+          <div class="mt-4 md:mt-0 md:ml-10">
+            <TabList as="nav" class="flex -mb-px">
+              <Tab
+                as="a"
+                v-for="cycle in cycles"
+                v-slot="{ selected }"
+                class="font-light px-1 pb-2"
+              >
+                <span
+                  class="hover:border-b-2 pb-2"
+                  :class="{
+                    'font-normal text-sky-500 border-b-2 border-sky-500':
+                      selected,
+                  }"
+                >
+                  {{ cycle.quarter }}
+                </span>
+              </Tab>
+            </TabList>
+          </div>
+        </div>
+      </div>
       <TabPanels>
         <TabPanel v-for="cycle in cycles">
           <div class="py-6">

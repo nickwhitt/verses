@@ -8,6 +8,8 @@ useSeoMeta({
   title: lesson.title,
   description: lesson.description,
 });
+
+const { data: exo2 } = await useFetch("/api/exo2");
 </script>
 
 <template>
@@ -18,7 +20,7 @@ useSeoMeta({
 
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <main class="grid sm:grid-cols-2 gap-4">
-      <Passage translation="King James Version">
+      <Passage translation="KJV">
         <p>
           <b>1</b>And there went a man of the house of Levi, and took
           <i>to wife</i> a daughter of Levi.
@@ -61,7 +63,7 @@ useSeoMeta({
           she said, Because I drew him out of the water.
         </p>
       </Passage>
-      <Passage translation="New International Version">
+      <Passage translation="NIV">
         <p>
           <b>1</b>Now a man of the tribe of Levi married a Levite woman,
           <b>2</b>and she became pregnant and gave birth to a son. When she saw
@@ -99,5 +101,9 @@ useSeoMeta({
       </LessonLast>
       <LessonNext slug="/2022/10/song-of-moses">Song of Moses</LessonNext>
     </nav>
+
+    <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
+      <VerseGrid chapter="2" :verses="exo2" />
+    </aside>
   </div>
 </template>

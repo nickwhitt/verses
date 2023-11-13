@@ -8,6 +8,7 @@ useSeoMeta({
   title: lesson.title,
   description: lesson.description,
 });
+const { data: deu32 } = await useFetch("/api/deu32");
 </script>
 
 <template>
@@ -116,5 +117,9 @@ useSeoMeta({
       <LessonLast slug="/2022/10/birth-of-moses">The Birth of Moses</LessonLast>
       <LessonNext slug="/2022/10/call-of-gideon">The Call of Gideon</LessonNext>
     </nav>
+
+    <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
+      <VerseGrid chapter="32" :verses="deu32" />
+    </aside>
   </div>
 </template>

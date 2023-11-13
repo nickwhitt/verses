@@ -8,6 +8,7 @@ useSeoMeta({
   title: lesson.title,
   description: lesson.description,
 });
+const { data } = await useFetch("/api/jdg6");
 </script>
 
 <template>
@@ -121,5 +122,9 @@ useSeoMeta({
       <LessonLast slug="/2022/10/song-of-moses">Song of Moses</LessonLast>
       <LessonNext slug="/2022/10/who-is-king">Who Is King?</LessonNext>
     </nav>
+
+    <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
+      <VerseGrid chapter="6" :verses="data" />
+    </aside>
   </div>
 </template>

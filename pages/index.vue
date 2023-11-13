@@ -1,6 +1,7 @@
 <script setup>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
-const { data: cycles } = await useFetch("/api/cycles");
+const { data: cycle22 } = await useFetch("/api/cycle22");
+const { data: cycle11 } = await useFetch("/api/cycle11");
 </script>
 
 <template>
@@ -12,26 +13,26 @@ const { data: cycles } = await useFetch("/api/cycles");
       </h1>
     </header>
 
-    <TabGroup :defaultIndex="0">
+    <TabGroup :defaultIndex="0" v-for="cycle in [cycle22]">
       <div class="border-b dark:border-slate-700">
         <div class="md:flex items-baseline">
-          <h3 class="font-semibold">2022-2023</h3>
+          <h3 class="font-semibold">{{ cycle.name }}</h3>
           <div class="mt-4 md:mt-0 md:ml-10">
             <TabList as="nav" class="flex -mb-px">
               <Tab
                 as="a"
-                v-for="cycle in cycles"
+                v-for="quarter in cycle.quarters"
                 v-slot="{ selected }"
                 class="font-light px-1 pb-2"
               >
                 <span
-                  class="hover:border-b-2 pb-2"
+                  class="hover:border-b-2 border-slate-700 dark:border-slate-300 pb-2"
                   :class="{
-                    'font-normal text-sky-500 border-b-2 border-sky-500':
+                    'font-normal text-sky-500 border-b-2 !border-sky-500':
                       selected,
                   }"
                 >
-                  {{ cycle.quarter }}
+                  {{ quarter.title }}
                 </span>
               </Tab>
             </TabList>
@@ -39,16 +40,16 @@ const { data: cycles } = await useFetch("/api/cycles");
         </div>
       </div>
       <TabPanels>
-        <TabPanel v-for="cycle in cycles">
+        <TabPanel v-for="quarter in cycle.quarters">
           <div class="py-6">
             <h2 class="text-2xl font-bold text-slate-900 dark:text-white">
-              {{ cycle.name }}
+              {{ quarter.name }}
             </h2>
           </div>
 
           <div class="grid md:grid-cols-3 gap-4">
             <div
-              v-for="unit in cycle.units"
+              v-for="unit in quarter.units"
               class="md:border dark:border-slate-700 rounded-lg h-fit"
             >
               <div class="py-2 md:px-4 border-b dark:border-slate-700">

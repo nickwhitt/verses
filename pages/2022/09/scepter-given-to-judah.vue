@@ -149,6 +149,13 @@ const { data: gen49 } = await useFetch("/api/gen49");
       </Passage>
     </main>
 
+    <nav class="flex justify-between my-4 font-light">
+      <LessonLast slug="/2022/09/jacob-called-israel">
+        Jacob Called Israel
+      </LessonLast>
+      <LessonNext slug="/2022/10/birth-of-moses">The Birth of Moses</LessonNext>
+    </nav>
+
     <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
       <VerseGrid chapter="32" :verses="gen32" />
       <VerseGrid chapter="38" :verses="gen38">

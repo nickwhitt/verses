@@ -1,4 +1,9 @@
 <script setup>
+import {
+  ArrowLongLeftIcon,
+  ArrowLongRightIcon,
+} from "@heroicons/vue/24/outline";
+
 const lesson = {
   unit: "God Calls Abraham's Family",
   title: "The Call of Abram",
@@ -154,6 +159,13 @@ const { data: gen15 } = await useFetch("/api/gen15");
         </div>
       </Passage>
     </main>
+
+    <nav class="flex justify-between my-4 font-light">
+      <div></div>
+      <LessonNext slug="/2022/09/god-chooses-younger-twin">
+        God Chooses The Younger Twin
+      </LessonNext>
+    </nav>
 
     <aside class="hidden sm:grid grid-cols-3 lg:grid-cols-5 gap-3 py-8">
       <VerseGrid chapter="12" :verses="gen12" />

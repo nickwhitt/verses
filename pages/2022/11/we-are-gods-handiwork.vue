@@ -64,5 +64,12 @@ useSeoMeta({
         </p>
       </Passage>
     </main>
+
+    <nav class="flex justify-between my-4 font-light">
+      <LessonLast slug="/2022/11/christ-is-wisdom">Christ Is Wisdom</LessonLast>
+      <LessonNext slug="/2022/11/god-gives-tools">
+        God Gives Tools for Our Protection
+      </LessonNext>
+    </nav>
   </div>
 </template>

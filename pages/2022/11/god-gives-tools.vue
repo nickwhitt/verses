@@ -66,5 +66,12 @@ useSeoMeta({
         </p>
       </Passage>
     </main>
+
+    <nav class="flex justify-between my-4 font-light">
+      <LessonLast slug="/2022/11/we-are-gods-handiwork">
+        We Are God's Handiwork
+      </LessonLast>
+      <div></div>
+    </nav>
   </div>
 </template>

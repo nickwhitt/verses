@@ -92,5 +92,12 @@ useSeoMeta({
         </p>
       </Passage>
     </main>
+
+    <nav class="flex justify-between my-4 font-light">
+      <LessonLast slug="/2022/09/scepter-given-to-judah">
+        The Scepter Given to Judah
+      </LessonLast>
+      <LessonNext slug="/2022/10/song-of-moses">Song of Moses</LessonNext>
+    </nav>
   </div>
 </template>

@@ -119,5 +119,14 @@ useSeoMeta({
         </div>
       </Passage>
     </main>
+
+    <nav class="flex justify-between my-4 font-light">
+      <LessonLast slug="/2022/10/call-of-gideon">
+        The Call of Gideon
+      </LessonLast>
+      <LessonNext slug="/2022/10/david-anointed-king">
+        David Anointed as King
+      </LessonNext>
+    </nav>
   </div>
 </template>

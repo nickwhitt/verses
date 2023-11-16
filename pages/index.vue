@@ -5,7 +5,6 @@ const { data: cycle11 } = await useFetch("/api/cycle11");
 </script>
 
 <template>
-  <Body class="text-slate-700 dark:text-slate-300 dark:bg-slate-900" />
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <header class="py-8">
       <h1 class="text-4xl font-extrabold text-slate-900 dark:text-white">

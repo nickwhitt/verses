@@ -19,9 +19,9 @@ defineProps(["translation"]);
 }
 :slotted(b) {
   font-weight: lighter;
+  font-size: 0.75rem;
 }
 :slotted(p b) {
-  font-size: 0.75rem;
   line-height: 1rem;
   vertical-align: text-top;
   margin-right: 0.125rem;

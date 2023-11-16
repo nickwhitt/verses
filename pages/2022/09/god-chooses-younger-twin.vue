@@ -13,7 +13,6 @@ const { data: gen25 } = await useFetch("/api/gen25");
 </script>
 
 <template>
-  <Body class="text-slate-700 dark:text-slate-300 dark:bg-slate-900" />
   <div class="xl:container mx-auto px-4 xl:max-w-screen-xl">
     <LessonHeader v-bind="lesson" />
   </div>

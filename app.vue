@@ -1,6 +1,5 @@
 <template>
-  <Body class="text-gray-500 bg-gray-50" />
-
+  <Body class="text-slate-700 dark:text-slate-300 dark:bg-slate-900" />
   <nav class="bg-gray-800">
     <div class="xl:container mx-auto xl:max-w-screen-xl px-4">
       <div class="flex h-16 items-center justify-between">

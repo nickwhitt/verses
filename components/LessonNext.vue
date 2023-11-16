@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <p class="flex flex-row-reverse items-center gap-2">
       <ArrowLongRightIcon class="h-5 w-5" />
       Next

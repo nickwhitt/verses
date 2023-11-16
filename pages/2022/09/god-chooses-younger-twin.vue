@@ -89,11 +89,9 @@ const { data: gen25 } = await useFetch("/api/gen25");
         <p><b>23</b>The <Lord /> said to her,</p>
         <ol class="my-4">
           <li>"Two nations are in your womb,</li>
-          <li class="ml-6">
-            and two peoples from within you will be separated;
-          </li>
+          <li>and two peoples from within you will be separated;</li>
           <li>one people will be stronger than the other,</li>
-          <li class="ml-6">and the older will serve the younger."</li>
+          <li>and the older will serve the younger."</li>
         </ol>
         <p>
           <b>24</b>When the time came for her to give birth, there were twin

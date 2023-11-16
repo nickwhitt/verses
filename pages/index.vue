@@ -19,7 +19,6 @@ const { data: cycle11 } = await useFetch("/api/cycle11");
           <div class="mt-4 md:mt-0 md:ml-10">
             <TabList as="nav" class="flex -mb-px">
               <Tab
-                as="a"
                 v-for="quarter in cycle.quarters"
                 v-slot="{ selected }"
                 class="font-light px-1 pb-2"

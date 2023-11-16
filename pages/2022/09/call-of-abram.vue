@@ -100,13 +100,13 @@ const { data: gen15 } = await useFetch("/api/gen15");
           </p>
           <ol class="my-4">
             <li><b>2</b>"I will make you into a great nation,</li>
-            <li class="ml-6">and I will bless you;</li>
+            <li>and I will bless you;</li>
             <li>I will make your name great,</li>
-            <li class="ml-6">and you will be a blessing.</li>
+            <li>and you will be a blessing.</li>
             <li><b>3</b>I will bless those who bless you,</li>
-            <li class="ml-6">and whoever curses you I will curse;</li>
+            <li>and whoever curses you I will curse;</li>
             <li>and all peoples on earth</li>
-            <li class="ml-6">will be blessed through you.</li>
+            <li>will be blessed through you.</li>
           </ol>
           <p>
             <b>4</b>So Abram went, as the <Lord /> had told him; and Lot went
@@ -130,8 +130,8 @@ const { data: gen15 } = await useFetch("/api/gen15");
           </p>
           <ol class="my-4">
             <li>"Do not be afraid, Abram.</li>
-            <li class="ml-6">I am your shield,</li>
-            <li class="ml-6">your very great reward."</li>
+            <li>I am your shield,</li>
+            <li>your very great reward."</li>
           </ol>
           <p>
             <b>2</b>But Abram said, "Sovereign <Lord />, what can you give me

@@ -129,20 +129,22 @@ const { data: gen49 } = await useFetch("/api/gen49");
           </p>
         </div>
         <div>
-          <p class="lead text-4xl mr-1">49</p>
+          <p class="lead">
+            <span class="text-4xl mr-1">49</span>
+            <b>10</b>The scepter will not depart from Judah,
+          </p>
           <ol>
-            <li><b>10</b>The scepter will not depart from Judah,</li>
-            <li class="ml-6">nor the ruler's staff from between his feet,</li>
+            <li>nor the ruler's staff from between his feet,</li>
             <li>until he to whom it belongs shall come</li>
-            <li class="ml-6">and the obedience of the nations shall be his.</li>
+            <li>and the obedience of the nations shall be his.</li>
 
             <li><b>11</b>He will tether his donkey to a vine,</li>
-            <li class="ml-6">his colt to the choicest branch;</li>
+            <li>his colt to the choicest branch;</li>
             <li>he will wash his garments in wine,</li>
-            <li class="ml-6">his robes in the blood of grapes.</li>
+            <li>his robes in the blood of grapes.</li>
 
             <li><b>12</b>His eyes will be darker than wine,</li>
-            <li class="ml-6">his teeth whiter than milk.</li>
+            <li>his teeth whiter than milk.</li>
           </ol>
         </div>
       </Passage>

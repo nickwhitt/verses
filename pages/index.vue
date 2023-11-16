@@ -56,13 +56,17 @@ const { data: cycle11 } = await useFetch("/api/cycle11");
                 </h3>
               </div>
               <ol class="py-2 px-4 list-none space-y-2">
-                <li v-for="lesson in unit.lessons">
+                <li
+                  v-for="lesson in unit.lessons"
+                  class="flex md:justify-between gap-1 items-baseline md:items-center"
+                >
                   <NuxtLink
                     :to="lesson.slug"
                     class="hover:dark:text-slate-200 hover:underline"
                   >
                     {{ lesson.name }}
                   </NuxtLink>
+                  <span class="font-thin text-sm">{{ lesson.books }}</span>
                 </li>
               </ol>
             </div>

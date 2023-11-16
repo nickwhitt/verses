@@ -3,6 +3,7 @@ const lesson = {
   unit: "We Are God's Artwork",
   title: "God Picked You!",
   description: "Ephesians 1:1-14",
+  date: "November 6, 2022",
 };
 useSeoMeta({
   title: lesson.title,

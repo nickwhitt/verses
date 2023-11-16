@@ -3,6 +3,7 @@ const lesson = {
   unit: "God Calls Abraham's Family",
   title: "The Scepter Given to Judah",
   description: "Genesis 32:22-26; 38:24-26; 49:10-12",
+  date: "September 25, 2022",
 };
 useSeoMeta({
   title: lesson.title,

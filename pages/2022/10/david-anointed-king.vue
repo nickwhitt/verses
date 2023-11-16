@@ -3,6 +3,7 @@ const lesson = {
   unit: "Out of Slavery to Nationhood",
   title: "David Anointed as King",
   description: "1 Samuel 16:1-13",
+  date: "October 30, 2022",
 };
 useSeoMeta({
   title: lesson.title,

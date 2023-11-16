@@ -3,6 +3,7 @@ const lesson = {
   unit: "We Are God's Artwork",
   title: "God Gives Tools for Our Protection",
   description: "Ephesians 6:10-18",
+  date: "November 27, 2022",
 };
 useSeoMeta({
   title: lesson.title,

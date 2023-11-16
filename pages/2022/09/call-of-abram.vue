@@ -8,6 +8,7 @@ const lesson = {
   unit: "God Calls Abraham's Family",
   title: "The Call of Abram",
   description: "Genesis 12:1-5, 7; 15:1-7",
+  date: "September 4, 2022",
 };
 useSeoMeta({
   title: lesson.title,

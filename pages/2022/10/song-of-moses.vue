@@ -3,6 +3,7 @@ const lesson = {
   unit: "Out of Slavery to Nationhood",
   title: "Song of Moses",
   description: "Deuteronomy 32:3-6, 10-14, 18",
+  date: "October 9, 2022",
 };
 useSeoMeta({
   title: lesson.title,

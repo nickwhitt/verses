@@ -3,6 +3,7 @@ const lesson = {
   unit: "God Calls Abraham's Family",
   title: "God Chooses The Younger Twin",
   description: "Genesis 25:19-34",
+  date: "September 11, 2022",
 };
 useSeoMeta({
   title: lesson.title,

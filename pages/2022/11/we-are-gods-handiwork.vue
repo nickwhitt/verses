@@ -3,6 +3,7 @@ const lesson = {
   unit: "We Are God's Artwork",
   title: "We Are God's Handiwork",
   description: "Ephesians 2:1-10",
+  date: "November 20, 2022",
 };
 useSeoMeta({
   title: lesson.title,

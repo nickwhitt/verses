@@ -3,6 +3,7 @@ const lesson = {
   unit: "God Calls Abraham's Family",
   title: "Jacob Called Israel",
   description: "Genesis 32:22-32",
+  date: "September 18, 2022",
 };
 
 useSeoMeta({

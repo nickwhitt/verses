@@ -3,6 +3,7 @@ const lesson = {
   unit: "Out of Slavery to Nationhood",
   title: "The Call of Gideon",
   description: "Judges 6:1-2, 7-16",
+  date: "October 16, 2022",
 };
 useSeoMeta({
   title: lesson.title,

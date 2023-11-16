@@ -3,6 +3,7 @@ const lesson = {
   unit: "Out of Slavery to Nationhood",
   title: "The Birth of Moses",
   description: "Exodus 2:1-10",
+  date: "October 2, 2022",
 };
 useSeoMeta({
   title: lesson.title,

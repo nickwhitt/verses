@@ -7,11 +7,13 @@
     <p class="flex items-center font-light gap-2">
       <BookOpenIcon class="h-5 w-5" />
       {{ description }}
+      <CalendarDaysIcon v-if="date" class="h-5 w-5" />
+      {{ date }}
     </p>
   </hgroup>
 </template>
 
 <script setup>
-import { BookOpenIcon } from "@heroicons/vue/24/outline";
-defineProps(["unit", "title", "description"]);
+import { BookOpenIcon, CalendarDaysIcon } from "@heroicons/vue/24/outline";
+defineProps(["unit", "title", "description", "date"]);
 </script>

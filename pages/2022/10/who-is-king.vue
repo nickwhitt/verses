@@ -3,6 +3,7 @@ const lesson = {
   unit: "Out of Slavery to Nationhood",
   title: "Who Is King?",
   description: "1 Samuel 8:4-7; 10:17-24",
+  date: "October 23, 2022",
 };
 useSeoMeta({
   title: lesson.title,

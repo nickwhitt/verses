@@ -64,7 +64,7 @@ const { data: cycle11 } = await useFetch("/api/cycle11");
                     :to="lesson.slug"
                     class="hover:dark:text-slate-200 hover:underline"
                   >
-                    {{ lesson.name }}
+                    {{ lesson.title }}
                   </NuxtLink>
                   <span class="font-thin text-sm">{{ lesson.books }}</span>
                 </li>

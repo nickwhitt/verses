@@ -1,16 +1,12 @@
 <script setup>
-const lesson = {
-  unit: "God Calls Abraham's Family",
-  title: "God Chooses The Younger Twin",
-  description: "Genesis 25:19-34",
-  date: "September 11, 2022",
-};
+const { data: gen25 } = await useFetch("/api/gen25");
+const { data: lesson } = await useFetch(
+  "/api/cycle22/god-chooses-younger-twin"
+);
 useSeoMeta({
   title: lesson.title,
   description: lesson.description,
 });
-
-const { data: gen25 } = await useFetch("/api/gen25");
 </script>
 
 <template>

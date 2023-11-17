@@ -1,20 +1,4 @@
 <script setup>
-import {
-  ArrowLongLeftIcon,
-  ArrowLongRightIcon,
-} from "@heroicons/vue/24/outline";
-
-const lesson = {
-  unit: "God Calls Abraham's Family",
-  title: "The Call of Abram",
-  description: "Genesis 12:1-5, 7; 15:1-7",
-  date: "September 4, 2022",
-};
-useSeoMeta({
-  title: lesson.title,
-  description: lesson.description,
-});
-
 const { data: gen12 } = await useFetch("/api/gen12", {
   transform: (verses) => {
     return verses.filter((verse) => {
@@ -23,6 +7,11 @@ const { data: gen12 } = await useFetch("/api/gen12", {
   },
 });
 const { data: gen15 } = await useFetch("/api/gen15");
+const { data: lesson } = await useFetch("/api/cycle22/call-of-abram");
+useSeoMeta({
+  title: lesson.title,
+  description: lesson.description,
+});
 </script>
 
 <template>

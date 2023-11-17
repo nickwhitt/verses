@@ -1,0 +1,1 @@
+import{_}from"./_plugin-vue_export-helper.c27b6911.js";import{o,c as t,k as c,d as n}from"./entry.3dd021df.js";const r={};function s(e,a){return o(),t("span",null,[c(e.$slots,"default",{},()=>[n("Lord")],!0)])}const p=_(r,[["render",s],["__scopeId","data-v-125432cb"]]);export{p as _};

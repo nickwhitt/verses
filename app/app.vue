@@ -12,6 +12,7 @@
 
       <header class="bg-default shadow-sm">
         <UContainer class="py-6">
+          <UBreadcrumb v-if="$route.meta.crumbs" :items="$route.meta.crumbs" />
           <h1 class="text-3xl font-bold tracking-tight text-highlighted">
             {{ $route.meta.title || 'Title' }}
           </h1>

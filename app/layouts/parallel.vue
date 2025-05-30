@@ -1,6 +1,6 @@
 <template>
-  <UContainer class="grid lg:grid-cols-3 gap-4 my-6">
-    <main class="lg:col-span-2">
+  <UContainer class="my-6">
+    <main>
       <UCard>
         <template #header>
           {{ title }}
@@ -18,18 +18,6 @@
         </template>
       </UCard>
     </main>
-
-    <aside class="hidden lg:block sticky top-0 h-screen overflow-y-auto">
-      <UCard>
-        <template #header>
-          <p>Translations</p>
-        </template>
-
-        <div class="flex flex-col gap-4">
-          <slot name="translations" />
-        </div>
-      </UCard>
-    </aside>
   </UContainer>
 </template>
 

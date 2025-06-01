@@ -21,6 +21,6 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ book: string, chapter: number, verse:number }>()
+const props = defineProps<{ book: string, chapter: number|string, verse: number|string }>()
 const reference = `${props.book} ${props.chapter}:${props.verse}`
 </script>

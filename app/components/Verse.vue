@@ -1,9 +1,9 @@
 <template>
   <div>
-    <p class="text-sm md:text-base" :dir="rtl ? 'rtl' : 'ltr'">
+    <p class="text-sm md:text-base lg:text-lg" :dir="rtl ? 'rtl' : 'ltr'">
       <slot />
     </p>
-    <p class="text-xs md:text-sm text-muted">
+    <p class="text-xs md:text-sm lg:text-base text-muted">
       <cite>{{ source }}</cite>
     </p>
   </div>

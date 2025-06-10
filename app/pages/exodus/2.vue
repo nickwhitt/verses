@@ -14,7 +14,7 @@
         <template #left>{{ scripture.kjv }}</template>
         <template #right>{{ scripture.niv }}</template>
 
-        <Verse v-for="text, source in scripture" :source="sources[source]">
+        <Verse v-for="text, source in scripture" :source="Sources[source]" :rtl="source === 'heb'">
           {{ text }}
         </Verse>
       </Scripture>
@@ -30,19 +30,8 @@
 </template>
 
 <script setup lang="ts">
+import { Sources } from '~/constants'
+
 definePageMeta({ title: 'Exodus 2' })
 const { data } = await useFetch('/api/exodus/2')
-const sources = {
-  nasb20: 'New American Standard Bible (NASB), 2020',
-  amp: 'Amplified Bible (AMP)',
-  esv: 'English Standard Version (ESV)',
-  kjv: 'King James Version (KJV)',
-  nkjv: 'New King James Version (NKJV)',
-  jps85: 'Jewish Publication Society (JPS), 1985',
-  csb: 'Christian Standard Bible (CSB)',
-  niv: 'New International Version (NIV)',
-  nlt: 'New Living Translation (NLT)',
-  heb: 'Masoretic Text',
-  lxx: 'Septuagint (LXX)',
-}
 </script>

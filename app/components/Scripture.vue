@@ -4,7 +4,7 @@
       <p class="col-span-5 text-sm md:text-base lg:text-lg text-right">
         <slot name="left" />
       </p>
-      <p class="text-center text-sm md:text-base lg:text-lg text-muted">
+      <p class="text-center text-xs md:text-sm lg:text-base text-muted">
         {{ verse || '' }}
       </p>
       <p class="col-span-5 text-sm md:text-base lg:text-lg">

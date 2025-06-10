@@ -1,0 +1,26 @@
+import type { Scripture } from "~/types"
+
+export default [
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 1, text: 'ואלה שמות בני ישראל הבאים מצרימה את יעקב איש וביתו באו' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 2, text: 'ראובן שמעון לוי ויהודה' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 3, text: 'יששכר זבולן ובנימן' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 4, text: 'דן ונפתלי גד ואשר' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 5, text: 'ויהי כל נפש יצאי ירך יעקב שבעים נפש ויוסף היה במצרים' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 6, text: 'וימת יוסף וכל אחיו וכל הדור ההוא' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 7, text: 'ובני ישראל פרו וישרצו וירבו ויעצמו במאד מאד ותמלא הארץ אתם' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 8, text: 'ויקם מלך חדש על מצרים אשר לא ידע את יוסף' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 9, text: 'ויאמר אל עמו הנה עם בני ישראל רב ועצום ממנו' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 10, text: 'הבה נתחכמה לו פן ירבה והיה כי תקראנה מלחמה ונוסף גם הוא על שנאינו ונלחם בנו ועלה מן הארץ' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 11, text: 'וישימו עליו שרי מסים למען ענתו בסבלתם ויבן ערי מסכנות לפרעה את פתם ואת רעמסס' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 12, text: 'וכאשר יענו אתו כן ירבה וכן יפרץ ויקצו מפני בני ישראל' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 13, text: 'ויעבדו מצרים את בני ישראל בפרך' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 14, text: 'וימררו את חייהם בעבדה קשה בחמר ובלבנים ובכל עבדה בשדה את כל עבדתם אשר עבדו בהם בפרך' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 15, text: 'ויאמר מלך מצרים למילדת העברית אשר שם האחת שפרה ושם השנית פועה' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 16, text: 'ויאמר בילדכן את העבריות וראיתן על האבנים אם בן הוא והמתן אתו ואם בת היא וחיה' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 17, text: 'ותיראן המילדת את האלהים ולא עשו כאשר דבר אליהן מלך מצרים ותחיין את הילדים' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 18, text: 'ויקרא מלך מצרים למילדת ויאמר להן מדוע עשיתן הדבר הזה ותחיין את הילדים' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 19, text: 'ותאמרן המילדת אל פרעה כי לא כנשים המצרית העברית כי חיות הנה בטרם תבוא אלהן המילדת וילדו' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 20, text: 'וייטב אלהים למילדת וירב העם ויעצמו מאד' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 21, text: 'ויהי כי יראו המילדת את האלהים ויעש להם בתים' },
+  { source: 'heb', book: 'Exodus', chapter: 1, verse: 22, text: 'ויצו פרעה לכל עמו לאמר כל הבן הילוד היארה תשליכהו וכל הבת תחיון' },
+] as Scripture[]

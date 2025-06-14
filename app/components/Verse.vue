@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <p class="text-sm md:text-base lg:text-lg" :dir="rtl ? 'rtl' : 'ltr'">
+  <div class="w-4 flex-none">
+    <p class="text-xs sm:text-sm font-light text-muted text-center">
       <slot />
-    </p>
-    <p class="text-xs md:text-sm lg:text-base text-muted">
-      <cite>{{ source }}</cite>
     </p>
   </div>
 </template>
-
-<script setup lang="ts">
-defineProps<{ source:string, rtl?:boolean }>()
-</script>

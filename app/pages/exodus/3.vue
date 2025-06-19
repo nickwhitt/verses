@@ -1,5 +1,9 @@
 <template>
   <UCard>
+    <template #header>
+      <h2>Chapter 3</h2>
+    </template>
+
     <div class="space-y-6">
       <Parallel>
         <template #left>
@@ -31,8 +35,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({ title: 'Exodus 3', titleRtl: 'שְׁמוֹת ג׳' })
-
 const scriptures = [
   {
     verse: 1,
